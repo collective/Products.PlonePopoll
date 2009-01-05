@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>PlonePopoll</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <style type="text/css">
+      <!--
+      body {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      color: #003366;
+      background-color: #FFFFFF;
+      font-size: 10px;
+      }
+      p {
+      font-size: 10px;
+      }
+      h1 {
+      font-style: normal;
+      font-variant: normal;
+      color: #336699;
+      text-align: center;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      }
+      -->
+    </style>
+    <style type="text/css">
+      <!--
+      h2 {
+      color: #336699;
+      font-size: 12px;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #336699;
+      }
+      -->
+    </style>
+    <style type="text/css">
+      <!--
+      .boxcontent {
+      border: 1px solid #336699;
+      padding: 10px;
+      background-color: #DDDDFF;
+      }
+      -->
+    </style>
+
+    <style type="text/css">
+      <!--
+      .boxtab {
+      background-color: #9999FF;
+      border: 1px solid #336699;
+      padding: 5px 15px;
+      margin-left: 5px;
+      font-size: 12px;
+      font-weight: bold;
+      }
+      -->
+    </style>
+    <style type="text/css">
+      <!--
+      li {
+      font-size: 10px;
+      list-style-type: square;
+      list-style-position: outside;
+      }
+      ul {
+      }
+      -->
+    </style>
+  </head>
+
+  <body>
+    <div align="center">
+    <table width="640">
+      <tr>
+
+          <td>
+            <h1><img src="PlonePopoll.png" alt="" align="middle">&nbsp;PlonePopoll</h1>
+            <p align="center"><font size="+1">&#8250;&nbsp;A new polling tool for Plone&nbsp;&#8249;</font></p>
+
+            <p align="center">
+              <font size="-2">
+                <a href="#what">What's PlonePopoll ?</a> 
+                |
+                <a href="#how">How does it work ?</a> 
+                |
+                <a href="#compat">Is it compatible with...</a> 
+                |
+                <a href="#download">Download</a> 
+                |
+                <a href="#screenshots">Screenshots</a> 
+                |
+                <a href="#faq">FAQ</a> 
+                |
+                <a href="#links">Links</a>
+
+                |
+                <a href="mailto:support@ingeniweb.com">Contact</a>
+              </font>
+            </p>
+
+            <a name="what"/>
+              <p>&nbsp;</p>
+              <span class="boxtab">What's PlonePopoll ?</span>
+              <div class="boxcontent">
+                <p>With PlonePopoll is a poll tool. You just have to define several possible answers to a question, enable the poll, and then your users can vote for one of the answers on the poll.</p>
+                <p>After having voted, the poll results are shown in a bar chart displaying the number of votes and percentage per answer along with the total number of votes.</p>
+                <p>When the poll is ober, you can disable it, so that only the results can be consulted.</p>
+                <p>A user has only one vote, but he can change his mind and vote differently later on. Voting again only changes the vote of the user, but does not increasethe total the number of votes.</p>
+                <p>PlonePopoll has been designed by the <a href="http://www.ingeniweb.com">Ingeniweb</a> team.</p>
+                <p>And, of course, it's Open-Source (GPL licence). </p>
+              </div>
+
+              <a name="how"/>
+
+              <p>&nbsp;</p>
+              <span class="boxtab">How does it work ?</span>
+              <div class="boxcontent">
+                <p>To make polls accessible to your users, a poll slot is added to your right slots upon Installation.</p>
+                <p>PlonePopoll is a new content type that you can add to your Plone site at any place. It will work together with the portal_popoll tool that is added to your Plone site.</p>
+                <p>The edit form of the PlonePopoll allows you to set a title, a question and then all answer you want to propose.</p>
+                <P>You can also enable and disable the poll in the edit form. Once you enable the poll, it will appear in the right slot. When the poll should be closed, you can disable it. Adding a new poll will replace the existing poll in the poll slot.</p>
+                <p>The view displays the same voting interface as in the slot. You can use this one if you don't like users to vote in the slot.</p>
+                <p>The results page shows a view of all results. Results are saved in the PlonePopoll object.</p>
+              </div>
+
+              <a name="compat"/>
+
+              <p>&nbsp;</p>
+              <span class="boxtab">Is it compatible with...</span>
+              <div class="boxcontent">
+                <ul>
+                  <li><span><b>CMF ?</b> No.</span></li>
+                  <li><span><b>Plone 1.0.5 ?</b> Yes.</span></li>
+                  <li><span><b>Plone 2 ?</b> Yes.</span></li>
+                  <li><span><b>My existing Plone instance ?</b> Yes of course. It is just a new type can be added in a folder by selecting it and choose 'add item'.</span></li>
+                  <li><span><b>My existing PlonePopoll instance ?</b> Yes, but you have to execute the migration script.<a href="#faq">more info</a></span></li>
+                  <li><span><b>How can i add a PlonePopoll ?</b> Under the Plone site, in a folder of Plone where you have the rights. Select PlonePopoll in the list of items and click 'add item'.</span></li>
+                </ul>
+              </div>
+
+              <a name="download"/>
+
+              <p>&nbsp;</p>
+              <span class="boxtab">Download</span>
+              <div class="boxcontent">
+                <p>
+                  PlonePopoll is shipped as a tarball for Plone. 
+                  See <a href="http://sourceforge.net/projects/ingeniweb">The Ingeniweb Projects</a> for more information.<br />
+                  </p>
+               
+                <h2>Official releases</h2>
+                
+                    <p>Releases are now hosted by SourceForge. The latest release can always be found <a href="http://sourceforge.net/project/showfiles.php?group_id=74634&release_id=159278">here</a>.</p>
+                    <ul>
+                      <li><b>2.1</b> (2004-06-28): Multi choice enable, result visibility settings, new translation.</li>
+                      <li><b>2.0</b> (2004-03-23): Clear poll function. Translation.</li>
+                      <li><b>2.0Beta1</b> (2004-01-06): Compatible with Plone 2 and Plone 1.</li>
+                      <li><b>1.0</b> (2003-12-05): ZODB-related bug fix; Minor cosmetic fixes.</li>
+                      <li><b>0.3</b> (2003-05-14): The product fully operative.</li>
+                    </ul>
+                
+                <h2>CVS</h2>
+                
+                    <p>
+                      You can checkout the CVS anonymously with the following commands:</p>
+                    <pre>cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/ingeniweb login 
+cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/ingeniweb co PlonePopoll</pre>
+
+                    <p>You can browse CVS at <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/ingeniweb/PlonePopoll">Sourceforge</a>.
+                  </p>
+                
+              </div>
+
+              <a name="screenshots"/>
+              <p>&nbsp;</p>
+              <span class="boxtab">Screenshots</span>
+
+              <div class="boxcontent">
+                <p>
+                  Here comes a few screenshots of PlonePopoll administration interface.
+                </p>
+                <p align="center">
+                  <img src="edit_form.png"><br />
+                  <i>Creating a poll</i>
+                </p>
+                <p align="center">
+                  <img src="poll_view.png"><br />
+                  <i>What a poll looks like</i>
+                </p>
+                <p align="center">
+                  <img src="poll_result.png"><br />
+                  <i>The results view</i>
+                </p>
+                <p align="center">
+                  <img src="edit_form2.png"><br />
+                  <i>Edit form with new setting available(v2.1)</i>
+                </p>
+                <p align="center">
+                  <img src="PlonePopoll2.png"><br />
+                  <i>User can choose several answers (v2.1)</i>
+                </p>
+                <p align="center">
+                  <img src="poll_slot2.png"><br />
+                  <i>The portlet of a multichoice poll (v2.1)</i>
+                </p>
+                
+                <p align="center">
+                  <img src="poll_result2.png"><br />
+                  <i>The results for multiple choice</i>
+                </p>
+              </div>
+
+              <a name="faq"/>
+              <p>&nbsp;</p>
+              <span class="boxtab">Frequently Asked Questions</span>
+              <div class="boxcontent">
+                <p>
+                <ul>
+
+                  <li>
+                    <strong>Can I install or remove PlonePopoll easily ?</strong><br />
+                    Yes, using the CMF QuickInstaller Tool.
+                  </li>
+                  <li>
+                    <strong>I see the result but i can't vote, why ?</strong><br />
+                    The poll is probably disabled.
+                  </li>
+                  <li>
+                    <strong>I have voted twice, does it matter ?</strong><br />
+                    No, only your last answer that is kept.
+                  </li>
+                  <li>
+                    <strong>After having installed PlonePopoll 2.1, my Plone site raises an exception, what can I do ?</strong><br />
+                    If you upgrade PlonePopoll from version 2.0x, you have to use the migration script.
+                    <br />
+                    Restart the server.<br />
+                    Create in your plone site folder (from zmi) an external method<br />
+                    Module : PlonePopoll.doMigration<br />
+                    Method : doMigration<br />
+                    Save and test.
+                  </li>
+                </ul>
+
+              </p>
+              </div>
+              
+              <a name="links"/>
+              <p>&nbsp;</p>
+            <span class="boxtab">Links</span>
+            <div class="boxcontent">
+              <p>
+                Here are some links of interest regarding PlonePopoll or other assorted tools.
+              </p>
+
+              <ul><li><a href="http://ingeniweb.sourceforge.net/Products/PlonePopoll">This document</a> on the web;</li>
+                <li><a href="http://ingeniweb.sourceforge.net/Products/PlonePopoll/api/PlonePopoll.html">PlonePopoll API Documentation</a> (using APIDoc);</li>
+                <li><a href="http://sourceforge.net/project/showfiles.php?group_id=74634&release_id=159278">The  project download page</a> to keep up-to-date with the latest PlonePopoll releases;</li>
+
+                <li><a href="http://ingeniweb.sourceforge.net/Products/PlonePopoll/README.txt">README.txt</a>: the PlonePopoll README file</li>
+                <li><a href="http://ingeniweb.sourceforge.net/Products/PlonePopoll/CHANGES">CHANGES</a>: the top-level changes file</li>
+                <li><a href="http://ingeniweb.sourceforge.net/Products/PlonePopoll/ChangeLog">ChangeLog</a>: the ChangeLog file, auto-generated from cvs</li>
+              </ul>
+
+            </div>
+
+              <p>&nbsp;</p>
+              <p align="right">
+                <font size="-3">
+                  <!-- Created: Wed Jul  9 15:52:57 GMT 2003 -->
+                  <!-- hhmts start -->
+Last modified: Tue, 23 March 2004 09:40:15 GMT
+<!-- hhmts end -->
+                </font>
+
+              </p>
+            </td>
+          </tr>
+      </table>
+    </div>
+  </body>
+</html>

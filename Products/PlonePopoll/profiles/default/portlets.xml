@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<portlets>
+  <portlet
+     addview="portlets.Popoll"
+     title="Popoll portlet"
+     description="A portlet that show one or more poll summaries."
+     />
+</portlets>

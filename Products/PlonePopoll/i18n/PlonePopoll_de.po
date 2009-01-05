@@ -1,0 +1,160 @@
+# Gettext Message File for PlonePopoll.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2003-05-14 11:03+Westeurop?ische Normalzeit\n"
+"Last-Translator: Sven Burkert <svenburkert@web.de>\n"
+"Language-Team: de <marc@typ-o-terrorist.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: de\n"
+"Language-name: Deutsch\n"
+"X-Is-Fallback-For: de-at de-li de-lu de-ch de-de\n"
+
+# btn
+msgid "Clear results"
+msgstr "Ergebnis löschen"
+
+# 
+# 
+msgid "Vote"
+msgstr "Abstimmen"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "box_votes"
+msgstr "Stimmen"
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "description_polls_list"
+msgstr "Die neuesten Umfragen, sortiert in umgekehrter chronologischer Reihenfolge."
+
+# 
+# 
+msgid "description_vote"
+msgstr "Sie können bei dieser Umfrage ${number} Option(en) auswählen. Wählst du ein weiteres Mal, so wird deine alte Auswahl durch die neue ersetzt."
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_polls_list"
+msgstr "Umfragen"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr "Tragen Sie hier die möglichen Antworten ein. Pro Antwort eine Zeile."
+
+msgid "help_choice_count"
+msgstr "Geben Sie hier die Anzahl der möglichen Antworten ein."
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Wählen Sie die Konfiguration des PlonePopoll portlets aus der folgenden Liste."
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+msgid "help_poll_results_visibility"
+msgstr "Wählen Sie hier, ob das Ergebnis der Umfrage sichtbar sein soll."
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr ""
+
+msgid "help_poll_status"
+msgstr "Wählen Sie aus, ob die Umfrage aktiv sein soll."
+
+msgid "help_question"
+msgstr "Tragen Sie hier die Frage ein."
+
+# 
+# 
+msgid "label_answers"
+msgstr "Antworten"
+
+# 
+# 
+msgid "label_choice_count"
+msgstr "Anzahl Antworten"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "PlonePopoll Portlet"
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr ""
+
+msgid "label_poll_status"
+msgstr "Status der Umfrage"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Erste Umfrage im Ordner"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Versteckt"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Neueste Umfrage"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Erste Umfrage im Ordner und den Unterordnern"
+
+msgid "label_question"
+msgstr "Frage"
+
+msgid "label_results_visible"
+msgstr "Sichtbar"
+
+msgid "legend_total_votes"
+msgstr "Stimmen"
+
+# 
+# 
+msgid "message_check_count"
+msgstr "Sie haben ${checked} Optionen ausgewählt. Sie dürfen maximal ${max} Optionen wählen."
+
+msgid "results_cleared"
+msgstr ""
+
+msgid "text_no_poll"
+msgstr "Es wurden noch keine Umfragen veröffentlicht."
+
+# 
+# 
+msgid "text_not_enable"
+msgstr "Die Umfrage ist nicht aktiv."
+
+# 
+# 
+msgid "text_person_vote_count"
+msgstr "({$person_count} Benutzer haben abgestimmt)"
+
+msgid "text_results_not_visible"
+msgstr "Die Ergebnisse stehen zu einem späteren Zeitpunkt zur Verfügung."
+
+msgid "text_votes_count"
+msgstr "In dieser Umfrage haben ${vote_count} Personen abgestimmt"
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} Stimmabgaben)"
+
+msgid "vote_saved"
+msgstr ""
+

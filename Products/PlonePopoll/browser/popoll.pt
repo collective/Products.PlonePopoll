@@ -1,0 +1,116 @@
+<dl class="portlet portletPopoll"
+    xmlns:tal="http://xml.zope.org/namespaces/tal"
+    xmlns:metal="http://xml.zope.org/namespaces/metal"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    tal:define="polls view/polls"
+    tal:condition="view/has_polls"
+    i18n:domain="plonepopoll">
+
+  <tal:comment replace="nothing">
+    ##################
+    The Popoll portlet
+    ##################
+    $Id: popoll.pt 52252 2007-10-23 14:23:28Z zegor $
+  </tal:comment>
+
+  <dt class="portletHeader">
+    <span class="portletTopLeft"></span>
+    <span i18n:translate="heading_portlet_polls"
+	  tal:condition="view/has_more_polls">Polls</span>
+    <a tal:define="poll python:polls[0]"
+       tal:condition="not:view/has_more_polls"
+       tal:content="poll/title"
+       tal:attributes="href poll/url">Poll title</a>
+    <span class="portletTopRight"></span>
+  </dt>
+
+  <tal:poll tal:repeat="poll polls">
+    <tal:block  tal:define="canVote poll/can_vote;">
+      <dd class="portletItem">
+	<fieldset tal:omit-tag="not:view/has_more_polls">
+	  <legend tal:condition="view/has_more_polls">
+	    <a href="" tal:content="poll/title"
+	       tal:attributes="href poll/url">The title</a>
+	  </legend>
+
+	  <h5 tal:content="poll/question">Question</h5>
+
+	  <form action="vote" name="results" method="post" enctype="multipart/form-data"
+	        tal:define="portal_url view/portal_url"
+		tal:condition="poll/can_vote"
+		tal:attributes="action poll/form_action;
+				name poll/form_name">
+	    <tal:loop repeat="choice poll/results">
+	      <input
+		  class="noborder"
+		  name="choices:list"
+		  id="popoll_0"
+		  value="0"
+		  tal:define="elt_id string:popoll_cb_${repeat/poll/index}_${repeat/choice/index}"
+		  tal:attributes="value repeat/choice/index;
+				  id string:popoll_cb_${repeat/poll/index}_${repeat/choice/index};
+				  type poll/input_widget">
+	      <label tal:attributes="for string:popoll_cb_${repeat/poll/index}_${repeat/choice/index}"
+	             tal:content="python:choice[0]" style="font-weight: normal">Choice</label>
+		<tal:results tal:condition="poll/show_results">
+		  <div
+		      tal:define="choice_count python: choice[1];
+				  choice_percentage python: '%0.2f'%choice[2];
+				  bar_percentage python: int(choice[2]) or 1;
+				  number repeat/choice/number;
+                                  number python:number % 10">
+
+		    <img height="10" tal:attributes="width string:${bar_percentage}; src string:${portal_url}/bar_${number}.gif; alt string:${choice_percentage}%" />
+		    <span tal:content="structure string:${choice_count} (${choice_percentage}%)">150 (14%)</span>
+		  </div>
+		</tal:results>
+	      <br tal:omit-tag="poll/show_results" />
+	    </tal:loop>
+
+	    <input class="context"
+		   type="submit"
+		   name="vote"
+		   value="Vote"
+		   i18n:attributes="value" />
+	  </form>
+	  <tal:block define="is_visible poll/is_visible"
+		     condition="not: canVote">
+	    <ul tal:condition="is_visible"
+		tal:define="portal_url view/portal_url">
+	      <tal:choices tal:repeat="choice poll/results">
+		<li tal:define="choice_id python: choice[0];
+			        choice_count python: choice[1];
+				choice_percentage python: '%0.2f' % choice[2];
+				bar_percentage python: int(choice[2]) or 1;
+                                oddrow repeat/choice/odd;
+                                number repeat/choice/number;
+                                number python:number % 10"
+                    tal:attributes="class python:oddrow and 'even' or 'odd'">
+		  <span tal:replace="choice_id">Choice</span><br />
+	          <img height="10" tal:attributes="width string:${bar_percentage}; src string:${portal_url}/bar_${number}.gif; alt string:${choice_percentage}%" />
+		  <strong tal:content="string:${choice_count} (${choice_percentage}%)">44%</strong>
+		</li>
+	      </tal:choices>
+	    </ul>
+	    <tal:else condition="not: is_visible"
+		       i18n:translate="text_results_not_visible">
+	      Results will appear later.
+	    </tal:else>
+	  </tal:block>
+	</fieldset>
+      </dd>
+      <dd class="portletFooter" tal:condition="not: view/has_more_polls">
+         <span class="portletBottomLeft"></span>
+	 <span i18n:translate="box_votes" tal:omit-tag="">Votes:</span>
+	 <span tal:replace="poll/votes_count" />
+         <span class="portletBottomRight"></span>
+      </dd>
+    </tal:block>
+  </tal:poll>
+  <dd class="portletFooter" tal:condition="view/has_more_polls">
+      <span class="portletBottomLeft"></span>
+      &nbsp,
+      <span class="portletBottomRight"></span>
+  </dd>
+
+</dl>

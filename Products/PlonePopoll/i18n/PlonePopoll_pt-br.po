@@ -1,0 +1,166 @@
+# Translation of PlonePopoll.pot to Portuguese (Brazil)
+# Rafahela Garcia Bazzanella <rafabazzanella@yahoo.com.br>, 2005-2007
+# Jean Rodrigo Ferri <jeanrodrigoferri@yahoo.com.br>, 2004-2006
+# Luiz Pasqual <pasquall@zoping.com.br>, 2005
+# Luis Flavio Rocha <lflrocha@gmail.com>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll 2.7.0\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2008-07-18 19:15-0300\n"
+"Last-Translator: Érico Andrei <erico@simplesconsultoria.com.br>\n"
+"Language-Team: Português do Brasil <tchezope@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: pt-br\n"
+"Language-Name: Português do Brasil\n"
+"Preferred-Encodings: latin1 utf-8\n"
+"Domain: plonepopoll\n"
+
+# btn
+msgid "Clear results"
+msgstr "Limpar resultado"
+
+# 
+# 
+msgid "Vote"
+msgstr "Votar"
+
+msgid "add_portlet"
+msgstr "Adicionar um portlet de enquetes"
+
+msgid "box_votes"
+msgstr "Votos:"
+
+msgid "desc_portlet"
+msgstr "Este portlet exibe enquetes."
+
+msgid "description_polls_list"
+msgstr "As últimas enquetes, organizadas em ordem cronológica inversa."
+
+# 
+# 
+msgid "description_vote"
+msgstr "Você pode escolher ${number} alternativa(s) nesta enquete. Se você votar novamente, seu voto antigo será descartado."
+
+msgid "edit_portlet"
+msgstr "Edite o portlet de enquetes"
+
+msgid "heading_polls_list"
+msgstr "Enquetes"
+
+msgid "heading_portlet_polls"
+msgstr "Enquete"
+
+msgid "help_answers"
+msgstr "Informe cada possível alternativa, uma em cada linha."
+
+msgid "help_choice_count"
+msgstr "Informe o número de escolhas para a enquete."
+
+#. Default: "Choose in the list below the configuration of PlonePopoll portlet."
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Escolha, na lista abaixo, a configuração da caixa da enquete."
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Selecione o número de enquetes que serão apresentas na caixa de enquete. O valor mínimo é 1. Se você informar 0, a caixa de enquete não será mostrada."
+
+msgid "help_poll_results_visibility"
+msgstr "Selecione se você quer que os resultados da enquete sejam visíveis."
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr "Selecione se você quer que o resultado seja apresentado na tela de votação."
+
+msgid "help_poll_status"
+msgstr "Selecione se você quer habilitar a enquete."
+
+msgid "help_question"
+msgstr "Informe a pergunta da enquete."
+
+# 
+# 
+msgid "label_answers"
+msgstr "Alternativas"
+
+# 
+# 
+msgid "label_choice_count"
+msgstr "Informe quantas respostas poderão ser selecionadas durante o voto."
+
+#. Default: "PlonePopoll portlet"
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Portlet de enquete"
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Número de enquetes no portlet de enquete"
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr "Mostrar o resultado na página de votação"
+
+msgid "label_poll_status"
+msgstr "Estado da enquete"
+
+#. Default: "First poll in branch"
+msgid "label_portlet_configuration_branch"
+msgstr "Primeira enquete na seção"
+
+#. Default: "Hidden"
+msgid "label_portlet_configuration_hidden"
+msgstr "Oculta"
+
+#. Default: "Newest poll"
+msgid "label_portlet_configuration_newest"
+msgstr "Enquete mais nova"
+
+#. Default: "First poll in branch and sub branches"
+msgid "label_portlet_configuration_subbranches"
+msgstr "Primeira enquete na seção e nas sub-seções"
+
+msgid "label_question"
+msgstr "Pergunta"
+
+msgid "label_results_visible"
+msgstr "Visível"
+
+msgid "legend_total_votes"
+msgstr "Total de votos"
+
+# 
+# 
+msgid "message_check_count"
+msgstr "Você selecionou ${checked} item(ns) mas você só pode selecionar ${max} item(ns)."
+
+msgid "results_cleared"
+msgstr "Os resultados da enquete foram apagados."
+
+msgid "text_no_poll"
+msgstr "Nenhuma enquete foi enviada."
+
+# 
+# 
+msgid "text_not_enable"
+msgstr "A enquete não está habilitada."
+
+# 
+# 
+msgid "text_person_vote_count"
+msgstr "${person_count} pessoas votaram."
+
+msgid "text_results_not_visible"
+msgstr "Os resultados aparecerão mais tarde."
+
+msgid "text_votes_count"
+msgstr "Há ${vote_count} voto(s) nesta enquete."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} votos)"
+
+msgid "vote_saved"
+msgstr "O voto foi salvo."
+

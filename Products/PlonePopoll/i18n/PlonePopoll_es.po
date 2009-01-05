@@ -1,0 +1,144 @@
+# translation of PlonePopoll_es.po to Spanish
+# Gettext Message File for PlonePopoll.
+# translation team <team@domain.com>, 2003-2004.
+# Enrique Zanardi <ezanard@debian.org>, 2004.
+# Mikel Larreategi <mlarreategi@codesyntax.com>, 2007
+# Pilar Marinas Luis <pilar.marinas@upcnet.es>, 2008
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2008-12-09 12:27+0100\n"
+"Last-Translator: Pilar Marinas Luis <pilar.marinas@upcnet.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: es\n"
+"Language-name: Spanish\n"
+"Preferred-encodings: latin1 utf-8\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+msgid "Clear results"
+msgstr "Borrar resultados"
+
+msgid "Vote"
+msgstr "Vote"
+
+msgid "results_cleared"
+msgstr "Se han borrado los resultados de la encuesta."
+
+msgid "vote_saved"
+msgstr "El voto ha sido guardado."
+
+msgid "description_polls_list"
+msgstr "Las últimas encuestas, ordenadas en orden cronológico inverso."
+
+msgid "description_vote"
+msgstr "Puede votar como máximo por ${number} opciones. Si vota otra vez, su antiguo voto será reemplazado por el nuevo."
+
+msgid "heading_polls_list"
+msgstr "Encuestas"
+
+msgid "label_answers"
+msgstr "Respuestas"
+
+msgid "help_answers"
+msgstr "Introduzca cada respuesta posible en una linea."
+
+msgid "label_choice_count"
+msgstr "Elija la cuenta"
+
+msgid "help_choice_count"
+msgstr "Introduzca el número de opciones disponibles."
+
+msgid "help_poll_results_visibility"
+msgstr "Escoja si quiere que los resultados de la encuesta sean visibles."
+
+msgid "help_poll_status"
+msgstr "Escoja si quiere que la encuesta este activa"
+
+msgid "help_question"
+msgstr "Introduzca la pregunta de la encuesta"
+
+msgid "label_poll_show_current_results"
+msgstr "Mostrar una pantalla con el resultado de los votos"
+
+msgid "help_poll_show_current_results"
+msgstr "Escoja si quiere que los resultados sean visibles antes de votar."
+
+msgid "label_poll_status"
+msgstr "Encuesta activada"
+
+msgid "label_question"
+msgstr "Pregunta"
+
+msgid "label_results_visible"
+msgstr "Muestra los resultados después de votar"
+
+msgid "legend_total_votes"
+msgstr "Total de votos"
+
+msgid "message_check_count"
+msgstr "Ha escogido ${checked}. El máximo autorizado es ${max}."
+
+msgid "text_no_poll"
+msgstr "No hay encuestas."
+
+msgid "text_not_enable"
+msgstr "La encuesta no está habilitada."
+
+msgid "text_person_vote_count"
+msgstr "(han votado ${person_count} personas)"
+
+msgid "text_results_not_visible"
+msgstr "Los resultados se publicarán al término de la encuesta"
+
+msgid "text_votes_count"
+msgstr "Hay un total de ${vote_count} votos en esta encuesta."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} votos)"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Portlet PlonePopoll"
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Elija la configuración del portlet de PlonePopoll"
+
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Número de encuestas a mostrar."
+
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Por favor, escoja el número máximo de encuestas a mostrar."
+
+msgid "heading_portlet_polls"
+msgstr "Encuesta"
+
+msgid "edit_portlet"
+msgstr "Edita el portlet de la encuesta"
+
+msgid "add_portlet"
+msgstr "Añade un portlet de encuesta"
+
+msgid "desc_portlet"
+msgstr "Este portlet muestra encuestas"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Primera encuesta de la rama"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Oculto"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Encuesta más reciente"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Primera encuesta de la rama y subramas"
+
+msgid "box_votes"
+msgstr "Votos:"
+

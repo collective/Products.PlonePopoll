@@ -1,0 +1,227 @@
+# Plamen Petkov <plamendp@bgstore.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2004-07-01 00:41+0300\n"
+"Last-Translator: Plamen Petkov <plamendp@bgstore.com>\n"
+"Language-Team: Bulgarian <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: bg\n"
+"Language-Name: Bulgarian\n"
+"Preferred-Encodings: cp1251 utf-8\n"
+"Domain: plonepopoll\n"
+"X-Generator: KBabel 1.3.1\n"
+
+#. <input class="context" i18n:attributes="value" name="form.button.ClearResults" tal:attributes="tabindex tabindex/next;" tal:condition="here/getResults" type="submit" value="Clear results"/>
+msgid "Clear results"
+msgstr "Clear results"
+
+## 2 more: ./popoll_slot.pt, ./popoll_slot2.pt
+#. <input class="context" i18n:attributes="value" name="vote" type="submit" value="Vote"/>
+#. <input class="context" i18n:attributes="value" name="form.button.vote" type="submit" value="Vote"/>
+msgid "Vote"
+msgstr "Отговор"
+
+msgid "add_portlet"
+msgstr ""
+
+#. <span i18n:translate="box_votes">
+#. Votes :
+#. </span>
+msgid "box_votes"
+msgstr "Отговори :"
+
+msgid "desc_portlet"
+msgstr ""
+
+#. <div class="description" i18n:translate="description_polls_list">
+#. The latest polls, sorted in reverse chronological order.
+#. </div>
+#. <div class="documentDescription" i18n:translate="description_polls_list">
+msgid "description_polls_list"
+msgstr "The latest polls, sorted in reverse chronological order."
+
+#. <p i18n:translate="description_vote" tal:condition="python:here.isEnabled()" tal:define="number python: here.getPollNumber()">
+#. You can vote at most for
+#. ${number}
+#. choices on the poll. If you vote again, your old vote is replaced by the new vote.&quot;
+#. </p>
+msgid "description_vote"
+msgstr "Можете да дадете не повече от ${number} отговора на анкетата. Ако отговорите повторно, вашият стар отговор ще бъде заместен от новия.&quot; "
+
+msgid "edit_portlet"
+msgstr ""
+
+## 1 more: ./polls2.pt
+#. <h1 i18n:translate="heading_polls_list">
+#. Polls
+#. </h1>
+msgid "heading_polls_list"
+msgstr "Анкети"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+#. <div class="formHelp" i18n:translate="help_answers">
+#. Enter each possible answer on one line.
+#. </div>
+msgid "help_answers"
+msgstr "Въведете всеки възможен отговор на отделна линия. "
+
+#. <div class="formHelp" i18n:translate="help_choice_count">
+#. Enter the Poll number of choices.
+#. </div>
+msgid "help_choice_count"
+msgstr "Въведете колко броя отговори едновременно (multi-choice) може да даде отговарящия."
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr ""
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+#. <div class="formHelp" i18n:translate="help_poll_results_visibility">
+#. Select whether you want the Poll results to be visible.
+#. </div>
+msgid "help_poll_results_visibility"
+msgstr "Изберете дали желаете резултатите от анкетата да са видими за посетителите"
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr ""
+
+#. <div class="help" i18n:translate="help_poll_status" id="poll_status_help" style="visibility:hidden">
+#. Select whether you want the Poll to be enabled.
+#. </div>
+#. <div class="formHelp" i18n:translate="help_poll_status">
+msgid "help_poll_status"
+msgstr "Изберете дали анкетата да е позволена. "
+
+#. <div class="formHelp" i18n:translate="help_question">
+#. Enter the Poll question.
+#. </div>
+msgid "help_question"
+msgstr "Въведете анкетния въпрос. "
+
+#. <label for="answers" i18n:translate="label_answers">
+#. Answers
+#. </label>
+msgid "label_answers"
+msgstr "Отговори"
+
+#. <label for="number" i18n:translate="label_choice_count">
+#. Choice count
+#. </label>
+msgid "label_choice_count"
+msgstr "Брой едновременни отговори в анкетата"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr ""
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr ""
+
+#. <span i18n:translate="label_poll_status">
+#. Poll Status
+#. </span>
+#. <label for="poll_status" i18n:translate="label_poll_status">
+#. </label>
+msgid "label_poll_status"
+msgstr "Статус на анкетата "
+
+msgid "label_portlet_configuration_branch"
+msgstr ""
+
+msgid "label_portlet_configuration_hidden"
+msgstr ""
+
+msgid "label_portlet_configuration_newest"
+msgstr ""
+
+msgid "label_portlet_configuration_subbranches"
+msgstr ""
+
+#. <span i18n:translate="label_question">
+#. Question
+#. </span>
+#. <label for="question" i18n:translate="label_question">
+#. </label>
+msgid "label_question"
+msgstr "Въпрос"
+
+#. <label for="cb_poll_visibility" i18n:translate="label_results_visible">
+#. Visible
+#. </label>
+msgid "label_results_visible"
+msgstr "Резултатите са видими"
+
+#. <span class="legend" i18n:translate="legend_total_votes">
+#. Total votes
+#. </span>
+#. <legend i18n:translate="legend_total_votes">
+#. </legend>
+msgid "legend_total_votes"
+msgstr "Общ брой отговори"
+
+# 
+# 
+msgid "message_check_count"
+msgstr ""
+
+msgid "results_cleared"
+msgstr ""
+
+## 1 more: ./polls2.pt
+#. <p i18n:translate="text_no_poll" tal:condition="not: results">
+#. No polls have been posted.
+#. </p>
+msgid "text_no_poll"
+msgstr "Няма пуснати анкети. "
+
+## 1 more: ./PlonePopoll_view2.pt
+#. <p i18n:translate="text_not_enable" tal:condition="python:here.isDisabled()">
+#. The poll is not enabled.
+#. </p>
+msgid "text_not_enable"
+msgstr "Анкетата не е позволена. "
+
+#. <div i18n:translate="text_person_vote_count" tal:condition="python: here.getPollNumber() &gt; 1" tal:define="person_count here/getPersonVoteCount">
+#. (
+#. ${person_count}
+#. persons have voted)
+#. </div>
+msgid "text_person_vote_count"
+msgstr "(Брой отговорили: ${person_count})"
+
+#. <p i18n:translate="text_results_not_visible" tal:condition="python: here.listPollChoices() != [] and (public == 0 and current_user != owner)" tal:define="public python: here.isVisible();                owner python: here.Creator();               current_user python: user.getUserName()">
+#. Results will appear later.
+#. </p>
+#. <b i18n:translate="text_results_not_visible">
+#. </b>
+msgid "text_results_not_visible"
+msgstr "Резултатите ще бъдат обявени по-късно. "
+
+#. <div i18n:translate="text_votes_count">
+#. There are
+#. ${vote_count}
+#. votes on this poll.
+#. </div>
+msgid "text_votes_count"
+msgstr "Брой отговори на тази анкета: ${vote_count}."
+
+msgid "text_votes_per_choice"
+msgstr ""
+
+msgid "vote_saved"
+msgstr ""
+

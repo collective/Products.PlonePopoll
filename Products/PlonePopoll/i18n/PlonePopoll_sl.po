@@ -1,0 +1,160 @@
+# translation of PlonePopoll_sl.po to Slovenščina
+# Matjaž Jeran (matematik) <matjaz.jeran@amis.net>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll_sl\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2006-06-30 20:53+0200\n"
+"Last-Translator: Matjaž Jeran (matematik) <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenščina <sl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: plonepopoll\n"
+"Language-code: sl\n"
+"Language-name: Slovenian\n"
+"X-Generator: KBabel 1.11.2\n"
+
+# btn
+msgid "Clear results"
+msgstr "Prečiščeni rezultati"
+
+# 
+# 
+msgid "Vote"
+msgstr "Voli"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "box_votes"
+msgstr "Glasovi:"
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "description_polls_list"
+msgstr "Zadnja glasovanja urejena v kronološkem vrstnem redu"
+
+# 
+# 
+msgid "description_vote"
+msgstr "Izberete lahko največ ${number} izbir glasovanja. Če boste volili ponovno, bo vaša nova izbira zamenjala vašo prejšnjo."
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_polls_list"
+msgstr "Glasovanja"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr "Vnesite vsak možen odgovor v svojo vrstico."
+
+msgid "help_choice_count"
+msgstr "Vnesite število možnih izbir."
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Izberite nastavitve portleta PlonePopoll."
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+msgid "help_poll_results_visibility"
+msgstr "Izberite ali dovolite vpogled v rezultate glasovanja."
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr ""
+
+msgid "help_poll_status"
+msgstr "Izberite ali želite omogočiti glasovanje"
+
+msgid "help_question"
+msgstr "Vstavite vprašanje glasovanja"
+
+# 
+# 
+msgid "label_answers"
+msgstr "Odgovori"
+
+# 
+# 
+msgid "label_choice_count"
+msgstr "Število izbir"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Portlet PlonePopoll"
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr ""
+
+msgid "label_poll_status"
+msgstr "Stanje glasovanja"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Prvo glasovanje v veji"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Skrito"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Najnovejše glasovanje"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Prvo glasovanje v veji in podvejah"
+
+msgid "label_question"
+msgstr "Vprašanje"
+
+msgid "label_results_visible"
+msgstr "Vidno"
+
+msgid "legend_total_votes"
+msgstr "Skupaj glasov"
+
+# 
+# 
+msgid "message_check_count"
+msgstr "Izbrali ste ${checked} izbir. Največ možnih izbir je ${max}."
+
+msgid "results_cleared"
+msgstr ""
+
+msgid "text_no_poll"
+msgstr "Nobenih glasovanj ni bilo objavljenih"
+
+# 
+# 
+msgid "text_not_enable"
+msgstr "Glasovanje ni omogočeno"
+
+# 
+# 
+msgid "text_person_vote_count"
+msgstr "(${person_count} oseb je glasovalo)"
+
+msgid "text_results_not_visible"
+msgstr "Rezultate bomo prikazali kasneje."
+
+msgid "text_votes_count"
+msgstr "${vote_count} oseb je glasovalo na tem glasovanju."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} glasov)"
+
+msgid "vote_saved"
+msgstr ""
+

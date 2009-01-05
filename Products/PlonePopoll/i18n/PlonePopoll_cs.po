@@ -1,0 +1,146 @@
+# Gettext Message File for PlonePopoll.
+# translation team <team@domain.com>, 2003-2004
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2007-05-15 09:38+0100\n"
+"Last-Translator: Radim Novotny <novotny.radim@gmail.com>\n"
+"Language-Team: <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: cs\n"
+"Language-name: Czech\n"
+"Preferred-encodings: utf-8 latin2\n"
+
+# tn
+msgid "Clear results"
+msgstr "Vynulovat výsledky"
+
+msgid "Vote"
+msgstr "Hlasovat"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "box_votes"
+msgstr "Hlasů :"
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "description_polls_list"
+msgstr "Poslední ankety seřazené chronologicky v obráceném pořadí."
+
+msgid "description_vote"
+msgstr "V anketě můžete hlasovat pro maximálně ${number} možností. Pokud budete hlasovat znovu, vaše hlasování nahradí to předchozí."
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_polls_list"
+msgstr "Ankety"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr "Zadejte každou odpověď na samostatnou řádku."
+
+msgid "help_choice_count"
+msgstr "Zadejte počet možných odpovědí."
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Níže vyberte v seznamu nastavení portletu anket."
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Zadejte počet zveřejněných anket, které se mají zobrazit v portletu. Minimální hodnota je 1. Pokud zadáte 0, nebude zobrazena žádná anketa."
+
+msgid "help_poll_results_visibility"
+msgstr "Vyberte, pokud si přejete aby byly průběžně zobrazovány výsledky ankety (po odhlasování)."
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr "Zaškrtněte, pokud chcete na stránce s hlasováním zobrazovat průběžné výsledky (hlasující uvidí průběžné výsledky před hlasováním)."
+
+msgid "help_poll_status"
+msgstr "Vyberte zda má být anketa aktivní."
+
+msgid "help_question"
+msgstr "Zadejte otázku ankety."
+
+msgid "label_answers"
+msgstr "Odpovědi"
+
+msgid "label_choice_count"
+msgstr "Počet možností"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Portlet anket"
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Počet anket zobrazených v portletu"
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr "Zobrazit průběžné výsledky před hlasováním?"
+
+msgid "label_poll_status"
+msgstr "Anketa povolena"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Prvních n anket ve složce"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Skrýt"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Nejnovějších n anket"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Prvních n anket ve složce a podsložkách"
+
+msgid "label_question"
+msgstr "Otázka"
+
+msgid "label_results_visible"
+msgstr "Zobrazit výsledky"
+
+msgid "legend_total_votes"
+msgstr "Hlasování celkem"
+
+msgid "message_check_count"
+msgstr "Vybrali jste ${checked} možností. Maximum povolených je ${max}."
+
+msgid "results_cleared"
+msgstr ""
+
+msgid "text_no_poll"
+msgstr "Nebyly vytvořeny žádné ankety."
+
+msgid "text_not_enable"
+msgstr "Anketa není aktivní"
+
+msgid "text_person_vote_count"
+msgstr "(Hlasovalo ${person_count} lidí)"
+
+msgid "text_results_not_visible"
+msgstr "Výsledky ankety budou k dispozici později."
+
+msgid "text_votes_count"
+msgstr "V této anketě bylo zaznamenáno ${vote_count} hlasů."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} hlasů)"
+
+msgid "vote_saved"
+msgstr ""
+

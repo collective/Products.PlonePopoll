@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2007-11-15 18:51+0100\n"
+"Last-Translator: Jean-Charles Rogez <jean-charles.rogez@edf.fr\n"
+"Language-Team: Ingeniweb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: en-au en-bz en-ca en-ie en-jm en-nz en-ph en-za en-tt en-gb en-us en-zw\n"
+
+msgid "Popoll portlet"
+msgstr "Poll"
+
+msgid "desc_popoll"
+msgstr "A poll to collect opinions about a question."
+
+msgid "label_popoll"
+msgstr "Poll"
+

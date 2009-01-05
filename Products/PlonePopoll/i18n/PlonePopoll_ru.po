@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: ru\n"
+"Language-Name: Русский\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+
+# btn
+msgid "Clear results"
+msgstr "Сбросить результаты"
+
+# 
+# 
+msgid "Vote"
+msgstr "Голосовать"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "box_votes"
+msgstr "Голоса :"
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "description_polls_list"
+msgstr "Недавние опросы. Более новые в начале."
+
+# 
+# 
+msgid "description_vote"
+msgstr "Вы можете выбрать ${number} вариант(а) ответа. Если вы проголосуете еще раз, ваши ответы будут изменены."
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_polls_list"
+msgstr "Опросы"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr "Введите возможны ответы по одному в каждой строке."
+
+msgid "help_choice_count"
+msgstr "Укажите количество возможных вариантов ответа"
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr ""
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+msgid "help_poll_results_visibility"
+msgstr "Вы можете скрыть результаты опроса"
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr ""
+
+msgid "help_poll_status"
+msgstr "Укажите будет ли опрос активным или нет"
+
+msgid "help_question"
+msgstr "Укажите вопрос для опроса."
+
+# 
+# 
+msgid "label_answers"
+msgstr "Ответы"
+
+# 
+# 
+msgid "label_choice_count"
+msgstr "Количество возможных вариантов ответа"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr ""
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr ""
+
+msgid "label_poll_status"
+msgstr "Статус опроса"
+
+msgid "label_portlet_configuration_branch"
+msgstr ""
+
+msgid "label_portlet_configuration_hidden"
+msgstr ""
+
+msgid "label_portlet_configuration_newest"
+msgstr ""
+
+msgid "label_portlet_configuration_subbranches"
+msgstr ""
+
+msgid "label_question"
+msgstr "Вопрос"
+
+msgid "label_results_visible"
+msgstr "Результаты видны"
+
+msgid "legend_total_votes"
+msgstr "Общее число голосов"
+
+# 
+# 
+msgid "message_check_count"
+msgstr "Вы выбрали ${checked} вариант(а), но вы можете выбрать только ${max} вариант(а)."
+
+msgid "results_cleared"
+msgstr ""
+
+msgid "text_no_poll"
+msgstr "Нет опросов."
+
+# 
+# 
+msgid "text_not_enable"
+msgstr "Опрос не активен."
+
+# 
+# 
+msgid "text_person_vote_count"
+msgstr "(${person_count} человек проголосовало)"
+
+msgid "text_results_not_visible"
+msgstr "Результаты появятся позже."
+
+msgid "text_votes_count"
+msgstr "${vote_count} голосов в этом опросе."
+
+msgid "text_votes_per_choice"
+msgstr ""
+
+msgid "vote_saved"
+msgstr ""
+

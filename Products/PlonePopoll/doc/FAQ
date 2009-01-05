@@ -1,0 +1,19 @@
+* Can I install or remove PlonePopoll easily ?
+    Yes, using the CMF QuickInstaller Tool.
+
+
+* I see the result but i can't vote, why ?
+    The poll is probably disabled.
+
+
+* I have voted twice, does it matter ?
+    No, only your last answer that is kept.
+
+
+* After having installed PlonePopoll 2.1, my Plone site raises an exception, what can I do ?
+    If you upgrade PlonePopoll from version 2.0x, you have to use the migration script.
+    Restart the server.
+    Create in your plone site folder (from zmi) an external method
+    * Module : PlonePopoll.doMigration
+    * Method : doMigration
+    * Save and test.

@@ -1,0 +1,67 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="plonepopoll">
+
+  <tal:comment replace="nothing">
+    ###############
+    Lists all polls
+    ###############
+    $Id: polls_list.pt 49708 2007-09-19 16:05:54Z glenfant $
+    FIXME: Deprecated, we should use a collection from Plone 3.
+  </tal:comment>
+
+  <metal:block fill-slot="top_slot"
+               tal:define="dummy python:request.set('disable_border',1)" />
+
+  <body>
+
+    <div metal:fill-slot="main"
+         tal:define="results python:container.portal_catalog(meta_type='PlonePopoll',sort_on='created',sort_order='reverse',review_state='published');
+                     Batch python:modules['Products.CMFPlone'].Batch;
+                     b_size python:15;
+                     b_start python:0;
+                     b_start request/b_start | b_start;
+                     batch python:Batch(results, b_size, int(b_start), orphan=1);">
+
+      <h1 i18n:translate="heading_polls_list">Polls</h1>
+
+      <div tal:condition="not: results">
+        <p><strong i18n:translate="text_no_poll">No polls have been posted.</strong></p>
+      </div>
+
+      <p i18n:translate="description_polls_list">
+        The latest polls, sorted in reverse chronological order.
+      </p>
+
+      <div metal:use-macro="here/batch_macros/macros/navigation" />
+      
+      <dl>
+        <tal:block repeat="result batch">
+          <dt>
+            <span class="contenttype-plonepopoll">
+              <a href="#"
+                 class="state-published visualIconPadding"
+                 tal:attributes="href result/getURL"
+                 tal:content="result/pretty_title_or_id">Title</a>
+            </span>
+
+            <span class="discreet" i18n:translate="results_by_author" i18n:domain="plone">
+              by <span tal:replace="result/Creator" i18n:name="author">Author</span>,
+              <span tal:replace="python:here.toLocalizedTime(result.ModificationDate, long_format=1)" i18n:name="date">Modification Date</span>
+            </span>
+          </dt>
+          <dd tal:content="structure result/Description">description</dd>
+        </tal:block>
+      </dl>
+
+      <div metal:use-macro="here/batch_macros/macros/navigation" />
+
+    </div>
+
+  </body>
+</html>

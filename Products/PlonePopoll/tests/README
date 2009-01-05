@@ -1,0 +1,24 @@
+###################
+Testing PlonePopoll
+###################
+
+Requirements
+############
+
+* PloneTestCase suited to your Plone version
+
+Running the tests
+#################
+
+With Zope 2.9 or newer...
+
+Unix::
+
+  $ cd $INSTANCE_HOME
+  $ bin/zopectl test --nowarning -s Products.PlonePopoll
+
+Windows::
+
+  > cd %INSTANCE_HOME%\bin
+  > test.bat --nowarning -s Products.PlonePopoll
+

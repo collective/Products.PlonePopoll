@@ -1,0 +1,27 @@
+# translation of PlonePopoll_plone_en.po to Catalan
+# Gettext Message File for PlonePopoll.
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2008-12-09 13:39+0100\n"
+"Last-Translator: Pilar Marinas Luis <pilar.marinas@upcnet.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"Language-code: ca\n"
+"Language-name: Catalan\n"
+
+msgid "label_popoll"
+msgstr "Enquesta"
+
+msgid "desc_popoll"
+msgstr "Una enquesta per a recollir opinions sobre una pregunta."
+
+msgid "Popoll portlet"
+msgstr "Enquesta"
+

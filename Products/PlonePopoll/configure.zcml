@@ -1,0 +1,64 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   xmlns:five="http://namespaces.zope.org/five"
+   xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+   xmlns:plone="http://namespaces.plone.org/plone"
+   i18n_domain="plonepopoll">
+
+  <!--
+      $Id: configure.zcml 53954 2007-11-15 22:11:24Z zegor $
+    -->
+
+  <!-- GenericSetup resources -->
+
+  <genericsetup:registerProfile
+     name="default"
+     title="PlonePopoll"
+     directory="profiles/default"
+     description="Profile for PlonePopoll."
+     provides="Products.GenericSetup.interfaces.EXTENSION"
+     for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+     />
+
+  <!-- PTSTranslationDomain -->
+  <utility component=".plonepopolldomain"
+           name="plonepopoll" />
+
+  <!-- Portlet resources -->
+
+  <utility
+     component=".browser.popoll.SourcesVocabularyFactory"
+     name="popoll.portlet.pollselection"
+     />
+
+  <plone:portlet
+     name="portlets.Popoll"
+     interface=".browser.popoll.IPopollPortlet"
+     assignment=".browser.popoll.Assignment"
+     renderer=".browser.popoll.Renderer"
+     addview=".browser.popoll.AddForm"
+     editview=".browser.popoll.EditForm"
+     view_permission="zope2.View"
+     edit_permission="cmf.ManagePortal"
+     />
+
+  <!-- AT base object has deprecated manage... -->
+
+  <five:deprecatedManageAddDelete
+     class=".content.PlonePopoll.PlonePopoll"/>
+
+  <!-- Marker interface -->
+
+  <five:implements
+     class=".content.PlonePopoll.PlonePopoll"
+     interface=".interfaces.IPlonePopoll" />
+
+  <!-- Events -->
+
+  <subscriber
+     for=".interfaces.IPlonePopoll
+	  zope.lifecycleevent.interfaces.IObjectCopiedEvent"
+     handler=".content.PlonePopoll.cloneHandler" />
+
+</configure>

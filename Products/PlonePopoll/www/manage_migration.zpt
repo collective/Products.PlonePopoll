@@ -1,0 +1,31 @@
+<html tal:omit-tag="">
+<h1 tal:replace="structure here/manage_page_header">Header</h1>
+<h2
+  tal:define="manage_tabs_message options/manage_tabs_message | request/manage_tabs_message | nothing"
+  tal:replace="structure here/manage_tabs">Tabs</h2>
+
+<h2>PlonePopol Migration to Archetypes</h2>
+
+<form method="post" name="migrationForm" action="manage_migrate"
+  tal:define="results python:container.portal_catalog(meta_type='PlonePopoll', sort_on='created', sort_order='reverse');
+              nb_to_update python: 0">
+  <div tal:condition="results">
+    <input type="submit" name="migrate"
+           value="Migrate old PlonePopolls to Archetypes" />
+    <h4>Polls to migrate:</h4>
+    <ol>
+      <tal:block tal:repeat="result results">
+        <li tal:define="poll result/getObject;"
+            tal:condition="python: not poll.getQuestion()"
+            tal:content="poll/title_or_id" />
+      </tal:block>
+    </ol>
+  </div>
+  <ul tal:condition="python: not results">
+    <li>No polls need to be migrated</li>
+  </ul>
+</form>
+
+
+<h1 tal:replace="structure here/manage_page_footer">Footer</h1>
+</html>

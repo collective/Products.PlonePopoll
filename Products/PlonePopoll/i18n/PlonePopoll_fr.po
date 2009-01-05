@@ -1,0 +1,157 @@
+# Gettext Message File for PlonePopoll.
+# French translation team <maik.roeder@ingeniweb.com>, 2003-2004
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2007-11-15 19:52+0100\n"
+"Last-Translator: Jean-Charles Rogez <jean-charles.rogez@edf.fr>\n"
+"Language-Team: Ingeniweb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: fr\n"
+"Language-Name: Français\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch\n"
+
+# btn
+msgid "Clear results"
+msgstr "Supprimer les résultats"
+
+# 
+# 
+msgid "Vote"
+msgstr "Voter"
+
+msgid "add_portlet"
+msgstr "Ajouter une boîte sondage"
+
+msgid "box_votes"
+msgstr "Votes :"
+
+msgid "desc_portlet"
+msgstr "Cette boîte affiche un sondage."
+
+msgid "description_polls_list"
+msgstr "Les derniers sondages, présentés dans l'ordre chronologique inverse."
+
+# 
+# 
+msgid "description_vote"
+msgstr "Vous pouvez voter pour au moins ${number} choix sur le sondage. Si vous votez plusieurs fois, seul votre dernier vote est pris en compte."
+
+msgid "edit_portlet"
+msgstr "Modifier la boîte sondage"
+
+msgid "heading_polls_list"
+msgstr "Sondages"
+
+# Portlet
+msgid "heading_portlet_polls"
+msgstr "Sondage"
+
+msgid "help_answers"
+msgstr "Saisissez toutes les réponses possibles, une réponse par ligne."
+
+msgid "help_choice_count"
+msgstr "Entrez le nombre de réponses maximales autorisées lors du vote."
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Choisissez dans la liste ci-dessous le mode d'affichage de la boîte de sondage."
+
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Choisissez le nombre maximum de sondages à afficher (lorsque pertinent avec le mode d'affichage)."
+
+msgid "help_poll_results_visibility"
+msgstr "Cochez la case pour afficher les résultats après le vote."
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr "Cochez la case si vous voulez que les résultats du sondage soient visibles avant de voter."
+
+msgid "help_poll_status"
+msgstr "Cochez la case si vous voulez que le sondage soit activé."
+
+msgid "help_question"
+msgstr "Saisissez la question du sondage."
+
+# 
+# 
+msgid "label_answers"
+msgstr "Réponses"
+
+# 
+msgid "label_choice_count"
+msgstr "Nombre de choix"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Mode d'affichage des sondages"
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Nombre maximum de sondages à afficher"
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr "Afficher les résultats sur l'écran de vote"
+
+msgid "label_poll_status"
+msgstr "Sondage actif"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Premier sondage du répertoire"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Caché"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Sondage le plus récent"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Premier sondage du répertoire et de ses sous-répertoires"
+
+msgid "label_question"
+msgstr "Question"
+
+msgid "label_results_visible"
+msgstr "Afficher les résultats après le vote"
+
+msgid "legend_total_votes"
+msgstr "Nombre total de votes"
+
+# 
+# 
+msgid "message_check_count"
+msgstr "Vous avez fait ${checked} choix mais vous ne pouvez en faire que ${max} au maximum."
+
+msgid "results_cleared"
+msgstr "Les résultats du vote ont été remis à zéro."
+
+msgid "text_no_poll"
+msgstr "Aucun sondage n'est actuellement publié."
+
+# 
+# 
+msgid "text_not_enable"
+msgstr "Le sondage n'est pas activé."
+
+# 
+# 
+msgid "text_person_vote_count"
+msgstr "(${person_count} personnes ont votés)"
+
+msgid "text_results_not_visible"
+msgstr "Les résultats apparaitront ultérieurement."
+
+msgid "text_votes_count"
+msgstr "Il y a eu ${vote_count} votes pour ce sondage."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} votes)"
+
+msgid "vote_saved"
+msgstr "La vote a été enregistré."
+

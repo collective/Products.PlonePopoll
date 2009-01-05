@@ -1,0 +1,157 @@
+# Gettext Message File for PlonePopoll.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2008-12-23 13:19+0100\n"
+"PO-Revision-Date: 2008-12-23 13:25+0100\n"
+"Last-Translator: Morten W. Petersen <morten@nidelven-it.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: no\n"
+"Language-Name: Norwegian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: no\n"
+"Language-name: Norwegian\n"
+"Language-Team: \n"
+
+# btn
+msgid "Clear results"
+msgstr "Slett resultater"
+
+#
+#
+msgid "Vote"
+msgstr "Stem"
+
+msgid "add_portlet"
+msgstr "Legg til portlet"
+
+msgid "box_votes"
+msgstr "Stemmer :"
+
+msgid "desc_portlet"
+msgstr "Denne boksen viser avstemninger"
+
+msgid "description_polls_list"
+msgstr "De nyeste avstemninger, sortert i omvendt kronologisk rekkefølge"
+
+#
+#
+msgid "description_vote"
+msgstr "Du kan velge maksium ${number} muligheter. Hvis du stemmer igjen, vil din gamle stemme bli erstattet med den nye"
+
+msgid "edit_portlet"
+msgstr "Rediger avstemningsboksen"
+
+msgid "heading_polls_list"
+msgstr "Avstemning"
+
+msgid "heading_portlet_polls"
+msgstr "Avstemning"
+
+msgid "help_answers"
+msgstr "Skriv inn de mulige svarene her.  Et svar per linje."
+
+msgid "help_choice_count"
+msgstr "Skriv inn antall mulige svar"
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Velg fra listen under, konfigurasjonen på PlonePopoll portleten"
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Velg antall publiserte avstemninger, som skal vises i Popoll portleten.  Minimum er 1.  Hvis du skriver 0, vil det ikke bli vist noen portlet."
+
+msgid "help_poll_results_visibility"
+msgstr "Velg om avstemningsresultater skal være synlige"
+
+msgid "help_poll_show_current_results"
+msgstr "Velg om resultatet skal vises på avstemningssiden eller portlet"
+
+msgid "help_poll_status"
+msgstr "Velg om avstemningen skal være aktiv"
+
+msgid "help_question"
+msgstr "Skriv avstemningsspørsmålet her."
+
+#
+#
+msgid "label_answers"
+msgstr "Svar"
+
+#
+#
+msgid "label_choice_count"
+msgstr "Antall svar"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "PlonePopoll Portlet"
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Antall avstemninger som skal vises"
+
+msgid "label_poll_show_current_results"
+msgstr "Vis resultat på avstemningssiden"
+
+msgid "label_poll_status"
+msgstr "Avstemningsstatus"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Første svar i rekken"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Skjult"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Nyeste avstemning"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Første avstemning i rekken og underrekker"
+
+msgid "label_question"
+msgstr "Spørsmål"
+
+msgid "label_results_visible"
+msgstr "Synlig"
+
+msgid "legend_total_votes"
+msgstr "Stemmer"
+
+#
+#
+msgid "message_check_count"
+msgstr "Du har valgt ${checked} muligheter. Du kan max. velge ${max} muligheter."
+
+msgid "results_cleared"
+msgstr "Avstemningsresultater har blitt slettet."
+
+msgid "text_no_poll"
+msgstr "Det er ikke offentliggjort noen avstemninger"
+
+#
+#
+msgid "text_not_enable"
+msgstr "Avstemningen er ikke aktiv."
+
+#
+#
+msgid "text_person_vote_count"
+msgstr "({$person_count} personer har stemt)"
+
+msgid "text_results_not_visible"
+msgstr "Resultater vil bli vist senere."
+
+msgid "text_votes_count"
+msgstr "${vote_count} personer har avgitt stemme på denne avstemningen"
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} stemmer)"
+
+msgid "vote_saved"
+msgstr "Stemmen har blitt lagret."
+

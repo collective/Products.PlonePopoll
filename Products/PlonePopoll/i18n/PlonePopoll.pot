@@ -1,0 +1,139 @@
+# Gettext Message File for PlonePopoll.
+# translation team <team@domain.com>, 2003-2004
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator:  <>\n"
+"Language-Team: <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Domain: plonepopoll\n"
+"X-Is-Fallback-For:\n"
+
+
+msgid "Clear results"
+msgstr "Clear results"
+
+msgid "Vote"
+msgstr "Vote"
+
+msgid "results_cleared"
+msgstr "Poll results have been cleared."
+
+msgid "vote_saved"
+msgstr "Vote has been saved."
+
+msgid "description_polls_list"
+msgstr "The latest polls, sorted in reverse chronological order."
+
+msgid "description_vote"
+msgstr "You can vote at most for ${number} choice(s) on the poll. If you vote again, your old vote is replaced by the new vote."
+
+msgid "heading_polls_list"
+msgstr "Polls"
+
+msgid "label_answers"
+msgstr "Answers"
+
+msgid "help_answers"
+msgstr "Enter each possible answer, one per line."
+
+msgid "label_choice_count"
+msgstr "Choice count"
+
+msgid "help_choice_count"
+msgstr "Enter the number of choices available."
+
+msgid "help_poll_results_visibility"
+msgstr "Select whether you want the Poll results to be visible."
+
+msgid "help_poll_status"
+msgstr "Select whether you want the Poll to be enabled."
+
+msgid "help_question"
+msgstr "Enter the Poll question."
+
+msgid "label_poll_show_current_results"
+msgstr "Show results on vote screen"
+
+msgid "help_poll_show_current_results"
+msgstr "Select whether you want results to be visible before to vote."
+
+msgid "label_poll_status"
+msgstr "Poll activated"
+
+msgid "label_question"
+msgstr "Question"
+
+msgid "label_results_visible"
+msgstr "Show results after the vote"
+
+msgid "legend_total_votes"
+msgstr "Total votes"
+
+msgid "message_check_count"
+msgstr "You have made ${checked} choices. The maximum authorized is ${max}."
+
+msgid "text_no_poll"
+msgstr "No polls have been posted."
+
+msgid "text_not_enable"
+msgstr "The poll is not enabled."
+
+msgid "text_person_vote_count"
+msgstr "(${person_count} persons have voted)"
+
+msgid "text_results_not_visible"
+msgstr "Results will appear later."
+
+msgid "text_votes_count"
+msgstr "${vote_count} people have voted on this poll."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} votes)"
+
+
+# Portlet
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Polls display mode"
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Choose in the list below the configuration of PlonePopoll portlet."
+
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Number of polls to display"
+
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Please choose the maximum number of polls to display (when relevant to the display mode)"
+
+msgid "heading_portlet_polls"
+msgstr "Poll"
+
+msgid "edit_portlet"
+msgstr "Edit the poll box"
+
+msgid "add_portlet"
+msgstr "Add a poll box"
+
+msgid "desc_portlet"
+msgstr "This box displays polls."
+
+msgid "label_portlet_configuration_branch"
+msgstr "First poll in branch"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Hidden"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Newest poll"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "First poll in branch and sub branches"
+
+msgid "box_votes"
+msgstr "Votes :"

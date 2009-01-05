@@ -1,0 +1,160 @@
+# Gettext Message File for PlonePopoll.
+# English translation team <maik.roeder@ingeniweb.com>, 2003-2005
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2008-01-29 09:38+0100\n"
+"Last-Translator: Jarno de Wit <Jarno.de.Wit@pareto.nl>\n"
+"Language-Team: nl <michael@reitsma.biz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: nl\n"
+"Language-name: Nederlands\n"
+"X-Is-Fallback-For: nl\n"
+
+# btn
+msgid "Clear results"
+msgstr "Resultaten wissen"
+
+#
+#
+msgid "Vote"
+msgstr "Stem"
+
+msgid "add_portlet"
+msgstr "portlet toevoegen"
+
+msgid "box_votes"
+msgstr "Stemmen: "
+
+msgid "desc_portlet"
+msgstr "portlet omschrijving"
+
+msgid "description_polls_list"
+msgstr "De laatste enquêtes, in omgekeerde chronologische volgorde."
+
+#
+#
+msgid "description_vote"
+msgstr "U kunt maximaal ${number} keer stemmen per enquête. Indien u nogmaals stemt, wordt uw oude stem overschreven."
+
+msgid "edit_portlet"
+msgstr "bewerk portlet"
+
+msgid "heading_polls_list"
+msgstr "Enquêtes"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr "Voer elk mogelijk antwoord in op een nieuwe regel."
+
+msgid "help_choice_count"
+msgstr "Vul hier het aantal mogelijke antwoorden in."
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Maak een keuze voor de configuratie van de enquête portlet."
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Kies het aantal gepubliseerde enquêtes dat u wilt weergeven in de PoPoll portlet. Het minimum is 1. Indien u 0 ingeeft wordt de portlet niet getoond."
+
+msgid "help_poll_results_visibility"
+msgstr "Kies hier of de resultaten van de enquête zichtbaar moeten zijn."
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr "Geef aan of u de huidige resultaten wilt weergeven op de enquête pagina of portlet"
+
+msgid "help_poll_status"
+msgstr "Kies of u de enquête aan of uit wilt zetten."
+
+msgid "help_question"
+msgstr "Voer de vraag van de enquête in."
+
+#
+#
+msgid "label_answers"
+msgstr "Antwoorden"
+
+#
+#
+msgid "label_choice_count"
+msgstr "Aantal antwoorden"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Enquête portlet"
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Aantal weer te geven vragen"
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr "Toon de resultaten in het stemscherm"
+
+msgid "label_poll_status"
+msgstr "Enquête status"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Eerste enquête in map"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Verborgen"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Nieuwste enquête eerst"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Eerste enquête in map en sub-mappen"
+
+msgid "label_question"
+msgstr "Enquête"
+
+msgid "label_results_visible"
+msgstr "Zichtbaar"
+
+msgid "legend_total_votes"
+msgstr "Totaal aantal stemmen"
+
+#
+# `
+msgid "message_check_count"
+msgstr "U heeft ${checked} keuzes gemaakt. Het toegestane maximum is ${max}."
+
+msgid "results_cleared"
+msgstr "Resultaten gewist"
+
+msgid "text_no_poll"
+msgstr "Er zijn geen enquêtes gevonden."
+
+#
+#
+msgid "text_not_enable"
+msgstr "De enquête staat uit."
+
+#
+#
+msgid "text_person_vote_count"
+msgstr "Er hebben ${person_count} gestemd."
+
+msgid "text_results_not_visible"
+msgstr "Resultaten worden later getoond."
+
+msgid "text_votes_count"
+msgstr "Er is ${vote_count} keer op deze enquête gestemd."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} votes)"
+
+msgid "vote_saved"
+msgstr "Stem opgeslagen"
+

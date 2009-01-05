@@ -1,0 +1,29 @@
+# Gettext Message File for PlonePopoll.
+# French translation team <maik.roeder@ingeniweb.com>, 2003-2004
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2007-11-15 19:36+0100\n"
+"Last-Translator: Jean-Charles Rogez <jean-charles.rogez@edf.fr>\n"
+"Language-Team: Ingeniweb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: fr\n"
+"Language-Name: Français\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"Preferred-encodings: latin1 utf-8\n"
+"X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch\n"
+
+msgid "Popoll portlet"
+msgstr "Sondage"
+
+msgid "desc_popoll"
+msgstr "Un sondage pour collecter les avis sur une question."
+
+msgid "label_popoll"
+msgstr "Sondage"
+

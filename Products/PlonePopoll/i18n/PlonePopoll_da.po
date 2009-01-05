@@ -1,0 +1,157 @@
+# Gettext Message File for PlonePopoll.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2003-05-14 11:03+Westeurop?ische Normalzeit\n"
+"Last-Translator: Sven Burkert <svenburkert@web.de>\n"
+"Language-Team: de <marc@typ-o-terrorist.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: da\n"
+"Language-Name: Danish\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: da\n"
+"Language-name: Danish\n"
+
+# btn
+msgid "Clear results"
+msgstr "fortryd"
+
+# 
+# 
+msgid "Vote"
+msgstr "Stem"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "box_votes"
+msgstr "Stemmer :"
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "description_polls_list"
+msgstr "De nyeste afstemninger, sorteret i omvendt kronologisk rækkefølge"
+
+# 
+# 
+msgid "description_vote"
+msgstr "Du kan højst vælge ${number} muligheder. Hvis du stemmer igen, vil din gamle stemme blive erstattet med den nye"
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_polls_list"
+msgstr "Afstemning"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr "Anfør de mulige svar her. Et svar pr. linie"
+
+msgid "help_choice_count"
+msgstr "Anfør antal mulige svar"
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Vælg fra listen herunder konfigurationen på PlonePopoll portletten"
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Vælg antal publicerede afstemninger, der skal vises i Popoll portletten. Minimum er 1. Hvis du skriver 0, vil der ikke blive vist nogen portlet."
+
+msgid "help_poll_results_visibility"
+msgstr "Vælg om afstemningsresultater skal være synlige"
+
+msgid "help_poll_show_current_results"
+msgstr "Vælg om du resulatet skal vises på afstemningssiden eller portlet"
+
+msgid "help_poll_status"
+msgstr "Vælg om afstemningen skal være aktiv"
+
+msgid "help_question"
+msgstr "Skriv afstemningsspørgsmålet her."
+
+# 
+# 
+msgid "label_answers"
+msgstr "Svar"
+
+# 
+# 
+msgid "label_choice_count"
+msgstr "Antal svar"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "PlonePopoll Portlet"
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+msgid "label_poll_show_current_results"
+msgstr "Vis resultat på afstemningssiden"
+
+msgid "label_poll_status"
+msgstr "Afstemningsstatus"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Første svar i rækken"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Skjult"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Nyeste afstemning"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Første afstemning i rækken og underrækker"
+
+msgid "label_question"
+msgstr "Svar"
+
+msgid "label_results_visible"
+msgstr "Synlig"
+
+msgid "legend_total_votes"
+msgstr "Stemmer"
+
+# 
+# 
+msgid "message_check_count"
+msgstr "Du har valgt ${checked} muligheder. Du kan max. vælge ${max} muligheder."
+
+msgid "results_cleared"
+msgstr ""
+
+msgid "text_no_poll"
+msgstr "Der er ikke offentliggjort nogen afstemninger"
+
+# 
+# 
+msgid "text_not_enable"
+msgstr "Afstemningen er ikke aktiv."
+
+# 
+# 
+msgid "text_person_vote_count"
+msgstr "({$person_count} personer har stemt)"
+
+msgid "text_results_not_visible"
+msgstr "Resultater vil blive vist senere."
+
+msgid "text_votes_count"
+msgstr "${vote_count} personer har afgivet stemme på denne afstemning"
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} stemmer)"
+
+msgid "vote_saved"
+msgstr ""
+

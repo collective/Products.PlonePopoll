@@ -1,0 +1,33 @@
+# translation of PlonePopoll_plone_es.po to Spanish
+# Gettext Message File for PlonePopoll.
+# translation team <team@domain.com>, 2003-2004.
+# Enrique Zanardi <ezanard@debian.org>, 2004.
+# Mikel Larreategi <mlarreategi@codesyntax.com>, 2007
+# Pilar Marinas Luis <pilar.marinas@upcnet.es>, 2008
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2008-12-09 13:36+0100\n"
+"Last-Translator: Pilar Marinas Luis <pilar.marinas@upcnet.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"Language-code: es\n"
+"Language-name: Spanish\n"
+"Preferred-encodings: latin1 utf-8\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+msgid "label_popoll"
+msgstr "Encuesta"
+
+msgid "desc_popoll"
+msgstr "Una encuesta para recoger opiniones sobre una pregunta."
+
+msgid "Popoll portlet"
+msgstr "Encuesta"
+

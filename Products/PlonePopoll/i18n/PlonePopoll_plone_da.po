@@ -1,0 +1,30 @@
+# Gettext Message File for PlonePopoll.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2003-05-14 11:03+Westeuropäische Normalzeit\n"
+"Last-Translator: Jan Ulrich Hasecke <jan.ulrich@hasecke.com>\n"
+"Language-Team: de <marc@typ-o-terrorist.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"Language-code: da\n"
+"Language-name: Danish\n"
+"Preferred-encodings: latin1 utf-8\n"
+
+msgid "Popoll portlet"
+msgstr ""
+
+msgid "desc_popoll"
+msgstr ""
+
+msgid "label_popoll"
+msgstr ""
+

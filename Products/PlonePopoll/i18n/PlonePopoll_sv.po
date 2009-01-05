@@ -1,0 +1,155 @@
+# Gettext Message File for PlonePopoll.
+# Swedish translation team  <jens@hjalmarsson.se>, 2003-2004
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2003-04-09 18:30+CST\n"
+"Last-Translator: Jens Hjalmarsson <jens@hjalmarsson.se>\n"
+"Language-Team: sv <jens@hjalmarsson.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: sv\n"
+"Language-name: Swedish\n"
+"Preferred-encodings: latin1\n"
+"X-Generator: KBabel 0.9.6\n"
+
+# btn
+msgid "Clear results"
+msgstr ""
+
+msgid "Vote"
+msgstr "Röst"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "box_votes"
+msgstr ""
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "description_polls_list"
+msgstr "Senaste omröstningar, ordnad i omvänd kronologisk ordning."
+
+# 
+# 
+msgid "description_vote"
+msgstr ""
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_polls_list"
+msgstr "Omröstningar"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr ""
+
+msgid "help_choice_count"
+msgstr ""
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr ""
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+msgid "help_poll_results_visibility"
+msgstr ""
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr ""
+
+msgid "help_poll_status"
+msgstr "Välj om du vill att omröstningen ska vara aktiverad."
+
+msgid "help_question"
+msgstr "Skriv in omröstningens fråga"
+
+msgid "label_answers"
+msgstr "Svar"
+
+# 
+# 
+msgid "label_choice_count"
+msgstr ""
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr ""
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr ""
+
+msgid "label_poll_status"
+msgstr "Omröstningens status"
+
+msgid "label_portlet_configuration_branch"
+msgstr ""
+
+msgid "label_portlet_configuration_hidden"
+msgstr ""
+
+msgid "label_portlet_configuration_newest"
+msgstr ""
+
+msgid "label_portlet_configuration_subbranches"
+msgstr ""
+
+msgid "label_question"
+msgstr "Fråga"
+
+msgid "label_results_visible"
+msgstr ""
+
+msgid "legend_total_votes"
+msgstr "Total antal röster"
+
+# 
+# 
+msgid "message_check_count"
+msgstr ""
+
+msgid "results_cleared"
+msgstr ""
+
+msgid "text_no_poll"
+msgstr ""
+
+msgid "text_not_enable"
+msgstr "Denna omröstning är inte aktiverad"
+
+# 
+# 
+msgid "text_person_vote_count"
+msgstr ""
+
+msgid "text_results_not_visible"
+msgstr ""
+
+msgid "text_votes_count"
+msgstr ""
+
+msgid "text_votes_per_choice"
+msgstr ""
+
+msgid "vote_saved"
+msgstr ""
+

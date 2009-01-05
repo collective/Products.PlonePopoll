@@ -1,0 +1,50 @@
+# Translation of PlonePopoll_plone-pt-br.po to Portuguese (Brazil)
+# Rafahela Garcia Bazzanella <rafabazzanella@yahoo.com.br>, 2007
+# Jean Rodrigo Ferri <jeanrodrigoferri@yahoo.com.br>, 2006
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll 2.0\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2007-01-23 17:50-0300\n"
+"Last-Translator: Luis Flavio Rocha <lflrocha@gmail.com>\n"
+"Language-Team: Português do Brasil <tchezope@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: pt-br\n"
+"Language-Name: Português do Brasil\n"
+"Preferred-encodings: latin1 utf-8\n"
+"Domain: plone\n"
+
+msgid "PlonePopoll has been created."
+msgstr "A enquete foi criada."
+
+msgid "Results"
+msgstr "Resultado"
+
+msgid "Poll changes saved."
+msgstr "As alterações na enquete foram salvas."
+
+msgid "Poll results have been cleared."
+msgstr "Os resultados da enquete foram apagados."
+
+msgid "Vote has been saved."
+msgstr "O voto foi salvo."
+
+msgid "Poll"
+msgstr "Enquete"
+
+msgid "label_popoll"
+msgstr "Enquete"
+
+msgid "desc_popoll"
+msgstr "Uma enquete para coletar opiniões"
+
+#. Default: "Save"
+msgid "Save"
+msgstr "Salvar"
+
+#. Default: "PlonePopoll configuration"
+msgid "PlonePopoll configuration"
+msgstr "Configuração da enquete"

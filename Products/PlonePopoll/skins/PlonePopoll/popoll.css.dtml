@@ -1,0 +1,19 @@
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.portletPopoll h5 {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.portletPopoll .portletItem {
+  padding: 0.5em 1em;
+}
+
+.portletPopoll ul {
+ list-style-image: none !important;
+ list-style-type: none !important;
+ margin: 0;
+}
+
+/* </dtml-with>  */

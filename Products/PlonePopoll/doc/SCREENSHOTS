@@ -1,0 +1,29 @@
+Here comes a few screenshots of PlonePopoll administration interface.
+
+.. image:: doc/edit_form.png
+
+*Creating a poll*
+
+.. image:: doc/poll_view.png
+
+*What a poll looks like*
+
+.. image:: doc/poll_result.png
+
+*The results view*
+
+.. image:: doc/edit_form2.png
+
+*Edit form with new setting available(v2.1)*
+
+.. image:: doc/PlonePopoll2.png
+
+*User can choose several answers (v2.1)*
+
+.. image:: doc/poll_slot2.png
+
+*The portlet of a multichoice poll (v2.1)*
+
+.. image:: doc/poll_result2.png
+
+*The results for multiple choice*

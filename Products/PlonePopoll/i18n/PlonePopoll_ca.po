@@ -1,0 +1,138 @@
+# Pilar Marinas Luis <pilar.marinas@upcnet.es>, 2008
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2008-12-09 12:32+0100\n"
+"Last-Translator: Pilar Marinas Luis <pilar.marinas@upcnet.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: ca\n"
+"Language-name: Catala\n"
+"Preferred-encodings: latin1 utf-8\n"
+
+msgid "Clear results"
+msgstr "Esborrar resultats"
+
+msgid "Vote"
+msgstr "Voti"
+
+msgid "results_cleared"
+msgstr "S'han buidat els resultats de l'enquesta."
+
+msgid "vote_saved"
+msgstr "El vot ha estat guardat"
+
+msgid "description_polls_list"
+msgstr "Les últimes enquestes, ordenades en ordre cronològic invers."
+
+msgid "description_vote"
+msgstr "Pot votar com a màxim per ${number} opcions. Si vota una altra vegada, el seu vot vell serà reemplaçat pel nou."
+
+msgid "heading_polls_list"
+msgstr "Enquestes"
+
+msgid "label_answers"
+msgstr "Respostes"
+
+msgid "help_answers"
+msgstr "Introdueixi cada resposta possible en una linea."
+
+msgid "label_choice_count"
+msgstr "Esculli la conta"
+
+msgid "help_choice_count"
+msgstr "Introdueixi el nombre d'opcions disponibles. "
+
+msgid "help_poll_results_visibility"
+msgstr "Esculli si vol que els resultats de l'enquesta siguin visibles."
+
+msgid "help_poll_status"
+msgstr "Esculli si vol que l'enquesta estigui activa."
+
+msgid "help_question"
+msgstr "Introdueixi la pregunta de l'enquesta"
+
+msgid "label_poll_show_current_results"
+msgstr "Mostrar una pantalla amb els resultats dels vots."
+
+msgid "help_poll_show_current_results"
+msgstr "Esculli si vol que els resultats siguin visibles abans de votar."
+
+msgid "label_poll_status"
+msgstr "Enquesta activada"
+
+msgid "label_question"
+msgstr "Pregunta"
+
+msgid "label_results_visible"
+msgstr "Mostra els resultats després de votar"
+
+msgid "legend_total_votes"
+msgstr "Total de vots"
+
+msgid "message_check_count"
+msgstr "Has escollit ${checked}. El màxim autoritzat és ${max}."
+
+msgid "text_no_poll"
+msgstr "No hi ha enquestes."
+
+msgid "text_not_enable"
+msgstr "L'enquesta no està habilitada. "
+
+msgid "text_person_vote_count"
+msgstr "(han votat ${person_count} persones)"
+
+msgid "text_results_not_visible"
+msgstr "Els resultats es publicaran al terme de l'enquesta."
+
+msgid "text_votes_count"
+msgstr "Hi ha un total de ${vote_count} vots en aquesta enquesta."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} vots)"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Portlet PlonePopoll"
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Trii la configuració del portletl de PlonePopoll "
+
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Nombre d'enquestes a mostrar."
+
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Esculli, si us plau, el nombre màxim d'enquestes a mostrar."
+
+msgid "heading_portlet_polls"
+msgstr "Enquesta"
+
+msgid "edit_portlet"
+msgstr "Edita la caixa de l'enquesta"
+
+msgid "add_portlet"
+msgstr "Afegeix una caixa d'enquesta"
+
+msgid "desc_portlet"
+msgstr "Aquesta caixa mostra enquestes."
+
+msgid "label_portlet_configuration_branch"
+msgstr "Primera enquesta de la branca"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Ocult"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Enquesta més recent"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Primera enquesta de la branca i sub-branques"
+
+msgid "box_votes"
+msgstr "Vots:"
+

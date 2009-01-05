@@ -1,0 +1,160 @@
+# Gettext Message File for PlonePopoll.
+# Menelaos Maglis <mmaglis@metacom.gr>, 2006.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PlonePopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2006-03-04 10:58+0200\n"
+"Last-Translator: Menelaos Maglis <mmaglis@metacom.gr>\n"
+"Language-Team: Greek <mmaglis@metacom.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: el\n"
+"Language-Name: Ελληνική\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: plonepopoll\n"
+"Report-Msgid-Bugs-To: \n"
+
+# btn
+msgid "Clear results"
+msgstr "Καθαρισμός αποτελεσμάτων"
+
+# 
+# 
+msgid "Vote"
+msgstr "Ψηφίστε"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "box_votes"
+msgstr "Ψήφοι :"
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "description_polls_list"
+msgstr "Οι τελευταίες δημοσκοπήσεις, ταξινομημένες με αντίστροφη χρονολογική σειρά."
+
+# 
+# 
+msgid "description_vote"
+msgstr "Μπορείτε να ψηφίσετε το πολύ για ${number} επιλογή(ές) στη δημοσκόπηση. Εάν ψηφίσετε πάλι, η παλιά σας ψήφος αντικαθίσταται από τη νέα."
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_polls_list"
+msgstr "Δημοσκοπήσεις"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr "Εισάγετε κάθε μία δυνατή απάντηση σε μια γραμμή."
+
+msgid "help_choice_count"
+msgstr "Εισάγετε τον αριθμό των διαθέσιμων επιλογών."
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Επιλέξτε στο παρακάτω κατάλογο τη ρύθμιση του πλαισίου PlonePopoll."
+
+#. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+msgid "help_poll_results_visibility"
+msgstr "Επιλέξτε αν θέλετε τα αποτελέσματα της δημοσκόπησης να είναι ορατά."
+
+#. Default: Select whether you want to show current results on vote page or portlet
+msgid "help_poll_show_current_results"
+msgstr ""
+
+msgid "help_poll_status"
+msgstr "Επιλέξτε αν θέλετε η δημοσκόπηση να είναι ενεργή."
+
+msgid "help_question"
+msgstr "Εισαγωγή ερώτησης Δημοσκόπησης"
+
+# 
+# 
+msgid "label_answers"
+msgstr "Απαντήσεις"
+
+# 
+# 
+msgid "label_choice_count"
+msgstr "Μέτρηση επιλογών"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Πλαίσιο PlonePopoll"
+
+#. Default: Number of polls to display
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+#. Default: Show results on vote screen
+msgid "label_poll_show_current_results"
+msgstr ""
+
+msgid "label_poll_status"
+msgstr "Κατάσταση Δημοσκόπησης"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Η πρώτη δημοσκόπηση στον κλάδο."
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Κρυφή"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Η νεότερη δημοσκόπηση"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Η πρώτη δημοσκόπηση στον κλάδο και υπό κλάδους."
+
+msgid "label_question"
+msgstr "Ερώτημα"
+
+msgid "label_results_visible"
+msgstr "Ορατά"
+
+msgid "legend_total_votes"
+msgstr "Σύνολο ψήφων"
+
+# 
+# 
+msgid "message_check_count"
+msgstr "Είχατε ${checked} επιλογές. Το μέγιστο επιτρεπτό είναι ${max}."
+
+msgid "results_cleared"
+msgstr ""
+
+msgid "text_no_poll"
+msgstr "Δεν έχουν δημοσιευθεί δημοσκοπήσεις."
+
+# 
+# 
+msgid "text_not_enable"
+msgstr "Η δημοσκόπηση είναι ανενεργή."
+
+# 
+# 
+msgid "text_person_vote_count"
+msgstr "(${person_count} άτομα έχουν ψηφίσει)"
+
+msgid "text_results_not_visible"
+msgstr "Τα αποτελέσματα θα εμφανιστούν αργότερα."
+
+msgid "text_votes_count"
+msgstr "${vote_count} φορές έχουν ψηφίσει σε αυτή τη δημοσκόπηση."
+
+msgid "text_votes_per_choice"
+msgstr "(${choice_count} ψήφοι)"
+
+msgid "vote_saved"
+msgstr ""
+

@@ -1,0 +1,143 @@
+# Gettext Message File for PlonePopoll.
+# Italian translation team <enzo@noiza.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plonepopoll\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
+"PO-Revision-Date: 2005-02-22 10:00+1\n"
+"Last-Translator: Massimiliano <baldomax@hotmail.com>\n"
+"Language-Team: it <enzo@noiza.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonepopoll\n"
+"Language-code: it\n"
+"Language-name: Italian\n"
+"Preferred-encodings: latin1\n"
+"X-Is-Fallback-For: it\n"
+
+msgid "Clear results"
+msgstr ""
+
+msgid "Vote"
+msgstr "Voto"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "box_votes"
+msgstr "Voti"
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "description_polls_list"
+msgstr "Gli ultimi sondaggi, elencati in ordine di tempo invertito"
+
+msgid "description_vote"
+msgstr "Puoi votare al massimo per ${number} opzioni del sondaggio. Se voti nuovamente il tuo vecchio voto sarà sostituito da quello nuovo."
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_polls_list"
+msgstr "Sondaggi"
+
+msgid "heading_portlet_polls"
+msgstr ""
+
+msgid "help_answers"
+msgstr "Inserisci ogni possibile risposta su una linea"
+
+msgid "help_choice_count"
+msgstr ""
+
+msgid "help_plonepopoll_portlet_configuration"
+msgstr ""
+
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+msgid "help_poll_results_visibility"
+msgstr ""
+
+msgid "help_poll_show_current_results"
+msgstr ""
+
+msgid "help_poll_status"
+msgstr "Seleziona se vuoi attivare il sondaggio"
+
+msgid "help_question"
+msgstr "Inserisci la domanda del sondaggio"
+
+msgid "label_answers"
+msgstr "Risposte"
+
+msgid "label_choice_count"
+msgstr ""
+
+# Portlet
+msgid "label_plonepopoll_portlet_configuration"
+msgstr ""
+
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr ""
+
+msgid "label_poll_show_current_results"
+msgstr ""
+
+msgid "label_poll_status"
+msgstr "Stato del sondaggio"
+
+msgid "label_portlet_configuration_branch"
+msgstr ""
+
+msgid "label_portlet_configuration_hidden"
+msgstr ""
+
+msgid "label_portlet_configuration_newest"
+msgstr ""
+
+msgid "label_portlet_configuration_subbranches"
+msgstr ""
+
+msgid "label_question"
+msgstr "Domanda"
+
+msgid "label_results_visible"
+msgstr ""
+
+msgid "legend_total_votes"
+msgstr "Voti totali"
+
+msgid "message_check_count"
+msgstr ""
+
+msgid "results_cleared"
+msgstr ""
+
+msgid "text_no_poll"
+msgstr ""
+
+msgid "text_not_enable"
+msgstr "Il sondaggio non è attivato"
+
+msgid "text_person_vote_count"
+msgstr ""
+
+msgid "text_results_not_visible"
+msgstr ""
+
+msgid "text_votes_count"
+msgstr "Sono stati espressi  ${vote_count} voti riguardo questo sondaggio"
+
+msgid "text_votes_per_choice"
+msgstr ""
+
+msgid "vote_saved"
+msgstr ""
+
