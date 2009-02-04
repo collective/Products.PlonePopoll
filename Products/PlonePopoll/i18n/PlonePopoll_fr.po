@@ -153,5 +153,5 @@ msgid "text_votes_per_choice"
 msgstr "(${choice_count} votes)"
 
 msgid "vote_saved"
-msgstr "La vote a été enregistré."
+msgstr "Le vote a été enregistré."
 
