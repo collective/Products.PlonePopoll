@@ -33,6 +33,16 @@ To do
 
 * Why are the entries of the combo in portlet configuration untranslated when the code (browser/popoll.py)
 
+
+SVN
+###
+
+* Popoll is now an egg [macadames]
+
+* Fix french translation (vote is not feminine in french - stop scraping popoll) 
+  [macadames]
+
+
 [v3.0.0] plone3compat branch
 ############################
 
