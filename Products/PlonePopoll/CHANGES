@@ -37,14 +37,22 @@ To do
 SVN
 ###
 
+[v2.7.1]
+########
+  
+* Added a catalog index in GS profile (isEnabled) to make poll portlet working (disabled polls must not be displayed)  
+
+[v2.7.0-beta2]
+##############
+
 * Popoll is now an egg [macadames]
 
 * Fix french translation (vote is not feminine in french - stop scraping popoll) 
   [macadames]
 
 
-[v3.0.0] plone3compat branch
-############################
+[v2.7.0-beta1]
+##############
 
 * Fixed deprecated stuffs (for Zope 2.10/Plone 3)
   [glenfant]
