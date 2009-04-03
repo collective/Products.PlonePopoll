@@ -1,11 +1,11 @@
 # Gettext Message File for PlonePopoll.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"
 "POT-Creation-Date: 2003-03-17 09:03+0100\n"
-"PO-Revision-Date: 2003-05-14 11:03+Westeuropäische Normalzeit\n"
-"Last-Translator: Michael Reitsma <michael@reitsma.biz>\n"
+"PO-Revision-Date: 2009-04-03 21:45+0100\n"
+"Last-Translator: \n"
 "Language-Team: nl <michael@reitsma.biz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Preferred-encodings: latin1 utf-8\n"
 
 msgid "Popoll portlet"
-msgstr ""
+msgstr "Poll"
 
 msgid "desc_popoll"
-msgstr ""
+msgstr "Een poll om meningen over een stelling te krijgen."
 
 msgid "label_popoll"
-msgstr ""
+msgstr "Poll"
 

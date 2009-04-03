@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"
 "POT-Creation-Date: 2003-03-17 09:03+0100\n"
-"PO-Revision-Date: 2008-01-29 09:38+0100\n"
-"Last-Translator: Jarno de Wit <Jarno.de.Wit@pareto.nl>\n"
+"PO-Revision-Date: 2009-04-03 21:49+0100\n"
+"Last-Translator: \n"
 "Language-Team: nl <michael@reitsma.biz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -52,7 +52,7 @@ msgid "heading_polls_list"
 msgstr "Enquêtes"
 
 msgid "heading_portlet_polls"
-msgstr ""
+msgstr "Poll"
 
 msgid "help_answers"
 msgstr "Voer elk mogelijk antwoord in op een nieuwe regel."
@@ -65,7 +65,7 @@ msgstr "Maak een keuze voor de configuratie van de enquête portlet."
 
 #. Default: Select number of published polls to display in PoPoll portlet. Minimal value is 1. If you enter 0, no portlet will be displayed.
 msgid "help_plonepopoll_portlet_configuration_number_of_polls"
-msgstr "Kies het aantal gepubliseerde enquêtes dat u wilt weergeven in de PoPoll portlet. Het minimum is 1. Indien u 0 ingeeft wordt de portlet niet getoond."
+msgstr "Kies het aantal gepubliseerde enquêtes dat u wilt weergeven in de PoPoll portlet. Het minimum is 1. Indien u 0 ingeeft wordt het portlet niet getoond."
 
 msgid "help_poll_results_visibility"
 msgstr "Kies hier of de resultaten van de enquête zichtbaar moeten zijn."
