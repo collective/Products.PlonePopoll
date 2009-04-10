@@ -15,7 +15,7 @@ msgstr ""
 "Language-Name: Dutch\n"
 "Preferred-Encodings: latin1\n"
 "Domain: plonepopoll\n"
-"X-Is-Fallback-For: nl-be\n"
+"X-Is-Fallback-For: nl-be nl-nl\n"
 
 # btn
 msgid "Clear results"
