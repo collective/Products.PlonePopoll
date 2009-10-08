@@ -170,7 +170,7 @@ Translations (other than French and English)
 * Greek (el): `Menelaos Maglis <mmaglis@metacom.gr>`_
 * Esperanto (eo): `Jan Ulrich Hasecke <jan.ulrich@hasecke.com>`_
 * Spanish (es): `Mikel Larreategi <mlarreategi@codesyntax.com>`_
-* Basque (eu): `Mikel Larreategi <mlarreategi@codesyntax.com>`_
+* Basque (eu): `Mikel Larreategi <mlarreategi@codesyntax.com>`_, `Ales Zabala Alava <shagi@gisa-elkartea.org>`_
 * Italian (it): `Massimiliano <baldomax@hotmail.com>`_
 * Dutsch (nl): `Michael Reitsma <michael@reitsma.biz>`_
 * Polish (pl): `Maciej Dziergwa <developing@extreme-is.com>`_
