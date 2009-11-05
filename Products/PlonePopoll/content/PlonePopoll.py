@@ -133,22 +133,23 @@ class PlonePopoll(atct.ATCTContent):
             self.clearResults()
             msgstr = "Poll results have been cleared."
             msgid = "results_cleared"
-        
+
         else:
             if checkedCount > max_votes and self._check_multi:
                 msgstr = "You have made ${checked} choices. The maximum authorized is ${max}."
                 msgid = 'message_check_count'
 
             else:
+                portal_popoll = getToolByName(self, 'portal_popoll')
+                # Ensure unicity of the vote
+                unicity = portal_popoll.getVoteUnicity(self.getVoteId(), create=1)
                 for choice in choices:
                     # Check that choice is valid
                     if int(choice) >= len(self.choices) or int(choice) < 0:
                         raise ValueError, "Invalid choice"
-                    # Ensure unicity of the vote
-                    unicity = getToolByName(self, 'portal_popoll').getVoteUnicity(self.getVoteId(), create=1)
-                    
+
                     # Call the method in the backend to store the vote
-                    getToolByName(self, 'portal_popoll').getBackend().vote(self.getVoteId(), int(choice), unicity)
+                    portal_popoll.getBackend().vote(self.getVoteId(), int(choice), unicity)
                 msgstr = "Vote has been saved."
                 msgid = "vote_saved"
 
