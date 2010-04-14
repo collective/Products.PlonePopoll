@@ -109,7 +109,7 @@
   </tal:poll>
   <dd class="portletFooter" tal:condition="view/has_more_polls">
       <span class="portletBottomLeft"></span>
-      &nbsp,
+      &nbsp;,
       <span class="portletBottomRight"></span>
   </dd>
 

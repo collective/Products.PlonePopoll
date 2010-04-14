@@ -37,10 +37,18 @@ To do
 SVN
 ###
 
+[v2.7.3.dev] - Trunk unreleased
+########
+
+* Fix malformed HTML entities.
+  [kdeldycke] 2010-04-14
+
+
 [v2.7.1]
 ########
-  
-* Added a catalog index in GS profile (isEnabled) to make poll portlet working (disabled polls must not be displayed)  
+
+* Added a catalog index in GS profile (isEnabled) to make poll portlet working (disabled polls must not be displayed)
+
 
 [v2.7.0-beta2]
 ##############
