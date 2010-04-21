@@ -1,0 +1,18 @@
+2010-02-10 [jcbrand]
+====================
+PTSTranslationDomain has been deprecated. Instead, PlacelessTranslationService
+utilities are now automatically registered/generated.
+
+The new utility is now at zope.i18n.translationdomain.TranslationDomain
+
+Therefore the following code was removed:
+
+In Products.PlonePopoll.__init__.py:
+    from Products.PlacelessTranslationService.utility import PTSTranslationDomain
+    plonepopolldomain = PTSTraslationDomain('plonepopoll')
+
+In Products.PlonePopoll.configure.zcml:
+    <!-- PTSTranslationDomain -->
+    <utility component=".plonepopolldomain"
+            name="plonepopoll" />
+

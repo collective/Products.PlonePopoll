@@ -159,6 +159,7 @@ Developers
 
 * Main developer: `Christophe "big" Bosse <mailto:christophe.bosse@ingeniweb.com>`_
 * Plone 3 support: `Gilles Lenfant <mailto:gilles.lenfant@ingeniweb.com>`_
+* Plone 4 support: `JC Brand <mailto:brand@syslab.com>`_
 
 Translations (other than French and English)
 ============================================
