@@ -15,9 +15,10 @@
     $Id: plonepopoll_view.pt 52252 2007-10-23 14:23:28Z zegor $
   </tal:comment>
 
-  <div metal:fill-slot="main"
-       tal:define="number python: context.getNumber_of_choices();
-                   canVote context/canVote">
+  <div metal:fill-slot="main">
+    <metal:macro define-macro="plonepopoll_view"
+                 tal:define="number here/getNumber_of_choices;
+                             canVote context/canVote">
     
     <div tal:replace="structure provider:plone.abovecontenttitle" />
 
@@ -123,5 +124,6 @@
       show related items if they exist
     </div>
     <div tal:replace="structure provider:plone.belowcontentbody" />
+    </metal:macro>
   </div>
 </html>
