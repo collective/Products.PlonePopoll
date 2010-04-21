@@ -21,10 +21,6 @@
      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
      />
 
-  <!-- PTSTranslationDomain -->
-  <utility component=".plonepopolldomain"
-           name="plonepopoll" />
-
   <!-- Portlet resources -->
 
   <utility

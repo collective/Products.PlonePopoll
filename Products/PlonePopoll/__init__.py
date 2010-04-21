@@ -28,8 +28,6 @@ from AccessControl.Permissions import view_management_screens
 # Zope imports
 from zope.i18nmessageid import MessageFactory
 
-from Products.PlacelessTranslationService.utility import PTSTranslationDomain
-
 # CMF imports
 from Products.CMFCore.DirectoryView import registerDirectory
 
@@ -43,7 +41,6 @@ from Products.PlonePopoll.config import *
 
 logger = logging.getLogger(PROJECTNAME)
 PopollMessageFactory = MessageFactory(I18N_DOMAIN)
-plonepopolldomain = PTSTranslationDomain('plonepopoll')
 
 from Products.PlonePopoll.content import *
 from Products.PlonePopoll.PlonePopollTool import *
