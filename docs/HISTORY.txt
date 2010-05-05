@@ -1,23 +1,26 @@
-2.7.3.dev
-#########
+Changelog
+=========
+
+2.7.3.dev (Unreleased)
+----------------------
 
 * Fix malformed HTML entities. (kdeldycke)
 * Plone4 support: drop the usage of the deprecated PTSTranslationDomain (jcbrand)
 
 2.7.1
-#####
+-----
 
 * Added a catalog index in GS profile (isEnabled) to make poll portlet working 
   (disabled polls must not be displayed)
 
 2.7.0-beta2
-###########
+-----------
 
 * Popoll is now an egg (macadames)
 * Fix french translation (vote is not feminine in french - stop scraping popoll) (macadames)
 
 2.7.0-beta1
-###########
+-----------
 
 * Fixed deprecated stuffs (for Zope 2.10/Plone 3) (glenfant)
 * GenericSetup installation (Install.py deprecated) (glenfant)
@@ -30,7 +33,7 @@
 * Translations cleanup (.pot) (zegor)
 
 2.6.1 - SVN
-###########
+-----------
 
 * added french translations
 * it is not possible to vote again on plonepopoll_view page;
@@ -39,13 +42,11 @@
   field) allows to display current poll results before user
   vote. Switched off by default. (naro)
 * It is possible to display more than one poll in the portlet. Number
-  of polls is set in the Poll tool settings.  Please note, you have to
-  Translators should check updated msgids:
-    label_portlet_configuration_newest
-    label_portlet_configuration_branch
-    label_portlet_configuration_subbranches 
-  (naro)
-
+  of polls is set in the Poll tool settings. (naro)
+* Translators should check updated msgids:
+  *label_portlet_configuration_newest*,
+  *label_portlet_configuration_branch*,
+  *label_portlet_configuration_subbranches*. (naro)
 * synced all translations (naro)
 * slightly refactored PlonePopoll_getPortletPoll script to reflect new
   configuration storage settings (naro)
@@ -54,7 +55,7 @@
 * Allow skinnable corners
 
 2.5.1 - (2006-02-08)
-####################
+--------------------
 
 * Restructure polls_list for Plone 2.1 and 2.5 compatibility
 * Restructured portlet_popoll for Plone 2.1 and 2.5 compatibility (ferri)
@@ -63,7 +64,7 @@
 * General cleaup (ferri)
 
 2.5 - (2006-24-03)  - CVS
-#########################
+-------------------------
 
 * Updated for Archetypes
 * Added greek translation thanks to Menelaos Maglis
@@ -71,7 +72,7 @@
 * Fixed ZODB transaction on every anonymous request - (zegor)
 
 2.4 - (2005-12-05)
-##################
+------------------
 
 * Use toLocalizedTime
 * Added FTests
@@ -95,40 +96,40 @@
 * translation changes (de, es)
 
 2.3 - (2005-02-04)
-##################
+------------------
 
 * Fixed the test on the number of choices
 * Fixed a cache bug in ZODB
 
 2.1 - (20040-06-16)
-###################
+-------------------
 
 * Multiple choice authorized for one poll
 
 2.0 - (2004-03-23)
-##################
+------------------
 
 * Plone 2.0 support
 * Clear button to clear poll votes
 
 2.0Beta1 - (2003-12-18)
-#######################
+-----------------------
 
 * Plone2.0 support
 
 1.0 - (2003-12-05)
-##################
+------------------
 
 * Fixed ZODB pb.
 * Minor cosmetic changes
 
 0.3 - (2003-05-14)
-##################
+------------------
 
 * Added I18N install automation support
 
 0.0 - (2003-04-17)
-##################
+------------------
 
 * Bugfix : Made getUnicityFactor Plone-user compliant : the same Plone
   user cannot vote (distinctly) several times.
