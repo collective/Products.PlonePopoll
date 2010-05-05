@@ -1,230 +1,135 @@
-#######
-CHANGES
-#######
+2.7.3.dev
+#########
 
-Considered future features
-##########################
+* Fix malformed HTML entities. (kdeldycke)
+* Plone4 support: drop the usage of the deprecated PTSTranslationDomain (jcbrand)
 
-New types of polls may be interesting (Idea from
-http://www.apwiz.com/flexivote.htm):
-
-* open poll lets you see results before voting
-* in a blind vote you must vote first, but can see all details
-* In private poll you see results but not how people voted
-* In a secret vote only the owner can see results and voting pattern.
-
-To do
+2.7.1
 #####
 
-* Test SQL back-end (find volunteers, we don't want to support this in
-  the future).
+* Added a catalog index in GS profile (isEnabled) to make poll portlet working 
+  (disabled polls must not be displayed)
 
-* Cleanup and spread in appropriate external methods what's in
-  Extensions/Install.py. We install with GenericSetup from now.
+2.7.0-beta2
+###########
 
-* Provide zconfig features to select and configure the votes back-end
-  (see note about SQL back-end above)
+* Popoll is now an egg (macadames)
+* Fix french translation (vote is not feminine in french - stop scraping popoll) (macadames)
 
-* Use a Zope 3 view for the poll to speed up
+2.7.0-beta1
+###########
 
-* Should we keep migrations ? (useless for old AT based Popoll).
+* Fixed deprecated stuffs (for Zope 2.10/Plone 3) (glenfant)
+* GenericSetup installation (Install.py deprecated) (glenfant)
+* Made code more simple. (glenfant)
+* Plone 3 style portlet replaces the config panel. (glenfant)
+* Multi-colors bars for results (zegor)
+* Updated french translation, zpt and css (zegor)
+* Fixed a bug that prevent to view results after voting when showing results 
+  in forms is not activated. (zegor)
+* Translations cleanup (.pot) (zegor)
 
-* Notify translators about new msgids.
-
-* Why are the entries of the combo in portlet configuration untranslated when the code (browser/popoll.py)
-
-[v2.7.3.dev]
-############
-
-* Fix malformed HTML entities. [kdeldycke] 2010-04-14
-* Plone4 support: drop the usage of the deprecated PTSTranslationDomain [jcbrand]
-
-
-[v2.7.1]
-########
-
-* Added a catalog index in GS profile (isEnabled) to make poll portlet working (disabled polls must not be displayed)
-
-
-[v2.7.0-beta2]
-##############
-
-* Popoll is now an egg [macadames]
-
-* Fix french translation (vote is not feminine in french - stop scraping popoll) 
-  [macadames]
-
-
-[v2.7.0-beta1]
-##############
-
-* Fixed deprecated stuffs (for Zope 2.10/Plone 3)
-  [glenfant]
-
-* GenericSetup installation (Install.py deprecated)
-  [glenfant]
-
-* Made code more simple.
-  [glenfant]
-
-* Plone 3 style portlet replaces the config panel.
-  [glenfant]
-
-* Multi-colors bars for results
-  [zegor]
-
-* Updated french translation, zpt and css 
-  [zegor]
-
-* Fixed a bug that prevent to view results after voting when showing results in forms is not activated. 
-  [zegor]
-
-* Translations cleanup (.pot) 
-  [zegor]
-
-[v2.6.1] - SVN
-##############
+2.6.1 - SVN
+###########
 
 * added french translations
-
 * it is not possible to vote again on plonepopoll_view page;
-  cleanup
-  [naro]
-
+  cleanup (naro)
 * added new poll option - showCurrentResults - this option (boolean
   field) allows to display current poll results before user
-  vote. Switched off by default.
-  [naro]
-
+  vote. Switched off by default. (naro)
 * It is possible to display more than one poll in the portlet. Number
   of polls is set in the Poll tool settings.  Please note, you have to
-  reinstall product in QuickInstaller to migration code will be run.
-
   Translators should check updated msgids:
     label_portlet_configuration_newest
     label_portlet_configuration_branch
-    label_portlet_configuration_subbranches [naro]
+    label_portlet_configuration_subbranches 
+  (naro)
 
-* synced all translations
-  [naro]
-
+* synced all translations (naro)
 * slightly refactored PlonePopoll_getPortletPoll script to reflect new
-  configuration storage settings [naro]
-
-* fixed 'branch' configuration mode (returned list of lists instead of list)
-  [naro]
-
+  configuration storage settings (naro)
+* fixed 'branch' configuration mode (returned list of lists instead of list) (naro)
 * Added czech translation by Lukas Zdych
-
 * Allow skinnable corners
 
-[v2.5.1 - 20060208 ] - Jean Rodrigo Ferri
-#########################################
+2.5.1 - (2006-02-08)
+####################
 
 * Restructure polls_list for Plone 2.1 and 2.5 compatibility
+* Restructured portlet_popoll for Plone 2.1 and 2.5 compatibility (ferri)
+* Added _at_rename_after_creation property in poll class (ferri)
+* i18n fixes (ferri)
+* General cleaup (ferri)
 
-* Restructured portlet_popoll for Plone 2.1 and 2.5 compatibility
-  [ferri]
-
-* Added _at_rename_after_creation property in poll class
-  [ferri]
-
-* i18n fixes
-  [ferri]
-
-* General cleaup
-  [ferri]
-
-[v2.5 - 20062403 ] - CVS
-########################
+2.5 - (2006-24-03)  - CVS
+#########################
 
 * Updated for Archetypes
-
 * Added greek translation thanks to Menelaos Maglis
-
 * added show_id method to PlonePopoll for forward compatability to Plone 2.
+* Fixed ZODB transaction on every anonymous request - (zegor)
 
-* Fixed ZODB transaction on every anonymous request - zegor
-
-[v2.4 - 20051205]
-#################
+2.4 - (2005-12-05)
+##################
 
 * Use toLocalizedTime
-
 * Added FTests
-
 * Removed superfluous answers2text.py
-
 * Don't loose answers when error
-
 * Error handling for answers
-
 * Number of choices field after answers field!
-
 * Poll enabled by default
-
 * Newest poll as default
-
 * Work on the i18n files. Only fr, de and en are now fully up to date.
-
 * Integrated nl translation, thanks to Michael Reitsma
-
 * Removed some debugging code in polls2.pt that was hidden in HTML
-  comments and called
-  resultObject.aq_explicit.aq_parent.aq_parent.Type(), but no Type
-  method was found.
-
+  comments and called resultObject.aq_explicit.aq_parent.aq_parent.Type(), 
+  but no Type method was found.
 * Make Installation work with Plone 2.1
-
 * Move permission installation from Install.py to Permissions.py
-
 * Move Permissions to Permissions.py
-
 * Install doesn't call setupMessageCatalog any more because it doesn't
   work with Plone 2.1.
-
 * polls2 : remove the displaying of the container type
-
 * translation changes (de, es)
 
-[v2.3 - 2005-02-04]
-###################
+2.3 - (2005-02-04)
+##################
 
 * Fixed the test on the number of choices
-
 * Fixed a cache bug in ZODB
 
-[v2.1 - 20040616]
-#################
+2.1 - (20040-06-16)
+###################
 
 * Multiple choice authorized for one poll
 
-[v2.0 - 20040323]
-#################
+2.0 - (2004-03-23)
+##################
 
 * Plone 2.0 support
-
 * Clear button to clear poll votes
 
-[v2.0Beta1 - 20031218]
-######################
+2.0Beta1 - (2003-12-18)
+#######################
 
 * Plone2.0 support
 
-[v1.0 - 20031205]
-#################
+1.0 - (2003-12-05)
+##################
 
 * Fixed ZODB pb.
-
 * Minor cosmetic changes
 
-[v0.3 - 20030514]
-#################
+0.3 - (2003-05-14)
+##################
 
 * Added I18N install automation support
 
-[v0.0 - 20030417]
-#################
+0.0 - (2003-04-17)
+##################
 
 * Bugfix : Made getUnicityFactor Plone-user compliant : the same Plone
   user cannot vote (distinctly) several times.
+
