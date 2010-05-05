@@ -177,12 +177,48 @@ Translations (other than French and English)
 * Polish (pl): `Maciej Dziergwa <developing@extreme-is.com>`_
 * Portugese-Brazilian (pt-br): `Luis Flavio Rocha <lflrocha@gmail.com>`_
 * Russian (ru): `Andrey Fedoseev <andrey.fedoseev@gmail.com>`_
-* Slovenian (sl): `Matjaz Jeran <<matjaz.jeran@amis.net>`_
+* Slovenian (sl): `Matjaz Jeran <matjaz.jeran@amis.net>`_
 * Swedish (sv): `Jens Hjalmarsson <jens@hjalmarsson.se>`_
 * Catalan (ca): `Pilar Marinas <pilar.marinas@upcnet.es>`_
 
 --------------------------
 
+#######
+CHANGES
+#######
+
+Considered future features
+##########################
+
+New types of polls may be interesting (Idea from
+http://www.apwiz.com/flexivote.htm):
+
+* open poll lets you see results before voting
+* in a blind vote you must vote first, but can see all details
+* In private poll you see results but not how people voted
+* In a secret vote only the owner can see results and voting pattern.
+
+To do
+#####
+
+* Test SQL back-end (find volunteers, we don't want to support this in
+  the future).
+
+* Cleanup and spread in appropriate external methods what's in
+  Extensions/Install.py. We install with GenericSetup from now.
+
+* Provide zconfig features to select and configure the votes back-end
+  (see note about SQL back-end above)
+
+* Use a Zope 3 view for the poll to speed up
+
+* Should we keep migrations ? (useless for old AT based Popoll).
+
+* Notify translators about new msgids.
+
+* Why are the entries of the combo in portlet configuration untranslated when the code (browser/popoll.py)
+
 .. sectnum::
 .. _Ingeniweb: http://www.ingeniweb.com/
 .. $Id: README.txt 77758 2008-12-17 16:36:28Z sneridagh $
+

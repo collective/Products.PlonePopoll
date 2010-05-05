@@ -1,12 +1,15 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.7.3.dev'
+version = '2.7.3b1'
 
 setup(name='Products.PlonePopoll',
       version=version,
       description="A Poll tool for Plone 3.x",
-      long_description=open(os.path.join("Products", "PlonePopoll", "README.txt")).read() + "\n\n",
+      long_description= \
+            open(os.path.join("Products", "PlonePopoll", "README.txt")).read() + 
+            open(os.path.join("docs", "HISTORY.txt")).read() + 
+            "\n\n",
       classifiers=[
         "Framework :: Plone",
         "Programming Language :: Python",
@@ -23,7 +26,6 @@ setup(name='Products.PlonePopoll',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
       ],
       entry_points="""
       # -*- Entry points: -*-

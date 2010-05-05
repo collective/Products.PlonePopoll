@@ -1,4 +1,1 @@
-Introduction
-============
-
-
+See Products/PlonePopoll/README.txt

@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.7.3.dev (Unreleased)
+2.7.3b1 (2010-05-05)
 ----------------------
 
 * Fix malformed HTML entities. (kdeldycke)
