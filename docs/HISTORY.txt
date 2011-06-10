@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.7.3b2-UNRELEASED (2011-??-??)
+----------------------
+
+* Fixed italian translation (micecchi)
+
 2.7.3b1 (2010-05-05)
 ----------------------
 

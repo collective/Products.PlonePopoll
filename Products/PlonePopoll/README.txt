@@ -172,7 +172,7 @@ Translations (other than French and English)
 * Esperanto (eo): `Jan Ulrich Hasecke <jan.ulrich@hasecke.com>`_
 * Spanish (es): `Mikel Larreategi <mlarreategi@codesyntax.com>`_
 * Basque (eu): `Mikel Larreategi <mlarreategi@codesyntax.com>`_, `Ales Zabala Alava <shagi@gisa-elkartea.org>`_
-* Italian (it): `Massimiliano <baldomax@hotmail.com>`_
+* Italian (it): `Massimiliano <baldomax@hotmail.com>`_, `Andrea Cecchi <andrea.cecchi@redturtle.it>`_
 * Dutsch (nl): `Michael Reitsma <michael@reitsma.biz>`_
 * Polish (pl): `Maciej Dziergwa <developing@extreme-is.com>`_
 * Portugese-Brazilian (pt-br): `Luis Flavio Rocha <lflrocha@gmail.com>`_
