@@ -7,8 +7,8 @@ setup(name='Products.PlonePopoll',
       version=version,
       description="A Poll tool for Plone 3.x",
       long_description= \
-            open(os.path.join("Products", "PlonePopoll", "README.txt")).read() + 
-            open(os.path.join("docs", "HISTORY.txt")).read() + 
+            open(os.path.join("README.rst")).read() +
+            open(os.path.join("docs", "HISTORY.rst")).read() +
             "\n\n",
       classifiers=[
         "Framework :: Plone",

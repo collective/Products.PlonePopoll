@@ -1,10 +1,12 @@
 Changelog
 =========
 
-2.7.3b2-UNRELEASED (2011-??-??)
-----------------------
+2.8b1 (2013-03-05)
+------------------
 
 * Fixed italian translation (micecchi)
+* Moved repo to Plone github collective [sneridagh]
+* Plone 4.3 support [sneridagh]
 
 2.7.3b1 (2010-05-05)
 ----------------------
@@ -15,7 +17,7 @@ Changelog
 2.7.1
 -----
 
-* Added a catalog index in GS profile (isEnabled) to make poll portlet working 
+* Added a catalog index in GS profile (isEnabled) to make poll portlet working
   (disabled polls must not be displayed)
 
 2.7.0-beta2
@@ -33,7 +35,7 @@ Changelog
 * Plone 3 style portlet replaces the config panel. (glenfant)
 * Multi-colors bars for results (zegor)
 * Updated french translation, zpt and css (zegor)
-* Fixed a bug that prevent to view results after voting when showing results 
+* Fixed a bug that prevent to view results after voting when showing results
   in forms is not activated. (zegor)
 * Translations cleanup (.pot) (zegor)
 
@@ -90,7 +92,7 @@ Changelog
 * Work on the i18n files. Only fr, de and en are now fully up to date.
 * Integrated nl translation, thanks to Michael Reitsma
 * Removed some debugging code in polls2.pt that was hidden in HTML
-  comments and called resultObject.aq_explicit.aq_parent.aq_parent.Type(), 
+  comments and called resultObject.aq_explicit.aq_parent.aq_parent.Type(),
   but no Type method was found.
 * Make Installation work with Plone 2.1
 * Move permission installation from Install.py to Permissions.py

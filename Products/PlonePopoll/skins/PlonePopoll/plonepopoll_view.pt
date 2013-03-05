@@ -1,34 +1,19 @@
-<html 
+<html
    xmlns="http://www.w3.org/1999/xhtml"
    xmlns:tal="http://xml.zope.org/namespaces/tal"
    xmlns:metal="http://xml.zope.org/namespaces/metal"
    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
    metal:use-macro="here/main_template/macros/master"
-   i18n:domain="plonepopoll"
-   xml:lang="en-US"
-   lang="en-US">
+   i18n:domain="plonepopoll">
 
-  <tal:comment replace="nothing">
-    ##############
-    Poll main view
-    ##############
-    $Id: plonepopoll_view.pt 52252 2007-10-23 14:23:28Z zegor $
-  </tal:comment>
+<body>
 
-  <div metal:fill-slot="main">
+<metal:content-core fill-slot="content-core">
+    <metal:content-core define-macro="content-core">
+
     <metal:macro define-macro="plonepopoll_view"
                  tal:define="number here/getNumber_of_choices;
                              canVote context/canVote">
-    
-    <div tal:replace="structure provider:plone.abovecontenttitle" />
-
-    <h1 class="documentFirstHeading"> 
-      <metal:field use-macro="python:here.widget('title', mode='view')">
-        Title
-      </metal:field>
-    </h1>
-
-    <div tal:replace="structure provider:plone.belowcontenttitle" />
 
     <p tal:condition="canVote"
        i18n:translate="description_vote">
@@ -70,7 +55,7 @@
           </span>
           <!-- transient results -->
           <div tal:condition="python:context.isVisible() and (context.hasVoted() or context.getShowCurrentResults())">
-            <tal:block 
+            <tal:block
                tal:define="choice_count      python: choice[1];
                            choice_percentage python: '%0.2f'%choice[2];
                            bar_percentage    python: int(choice[2]) or 1;
@@ -88,9 +73,9 @@
       <div class="field"
            tal:define="vote_count python:here.getVotesCount()">
         <fieldset>
-          
+
           <legend i18n:translate="legend_total_votes">Total votes</legend>
-          
+
           <div i18n:translate="text_votes_count">
             <span i18n:name="vote_count" tal:content="structure string:${vote_count}">
               people have voted on this poll.
@@ -120,10 +105,11 @@
                tal:condition="python: here.portal_membership.checkPermission('Popoll: Edit polls', here)" />
       </div>
     </form>
-    <div metal:use-macro="here/document_relateditems/macros/relatedItems">
-      show related items if they exist
-    </div>
-    <div tal:replace="structure provider:plone.belowcontentbody" />
+
     </metal:macro>
-  </div>
+
+    </metal:content-core>
+</metal:content-core>
+
+</body>
 </html>
