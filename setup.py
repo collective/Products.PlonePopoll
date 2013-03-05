@@ -1,24 +1,23 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.7.3b1'
+version = '2.8b1'
 
 setup(name='Products.PlonePopoll',
       version=version,
-      description="A Poll tool for Plone 3.x",
-      long_description= \
-            open(os.path.join("README.rst")).read() +
-            open(os.path.join("docs", "HISTORY.rst")).read() +
-            "\n\n",
+      description="A Poll tool for Plone based on archetypes.",
+      long_description=open(os.path.join("README.rst")).read() +
+      open(os.path.join("docs", "HISTORY.rst")).read() +
+      "\n\n",
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-        ],
+          "Framework :: Plone",
+          "Programming Language :: Python",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+      ],
       keywords='Zope Plone Poll',
       author='Ingeniweb',
       author_email='support@ingeniweb.com',
-      url='http://ingeniweb.com',
+      url='https://github.com/collective/Products.PlonePopoll',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['Products'],
