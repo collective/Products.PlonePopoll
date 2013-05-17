@@ -8,6 +8,9 @@ Changelog
 * Do not raise Unauthorized error anymore is user can see
   the Poll but not vote [keul]
 * Description field is now displayed [keul] 
+* Do not filter Popoll in portlet for anonymous (close `#1`__) [micecchi, keul] 
+
+__ https://github.com/collective/Products.PlonePopoll/issues/1
 
 2.8b1 (2013-03-05)
 ------------------

@@ -39,6 +39,7 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from Products.CMFCore.utils import getToolByName
 from Products.CMFPlone.utils import safe_unicode
 from Products.PlonePopoll import PopollMessageFactory as _
+from Products.PlonePopoll.interfaces import IPlonePopoll
 
 
 class IPopollPortlet(IPortletDataProvider):
@@ -78,8 +79,7 @@ class SourcesVocabulary(object):
             ]
 
         # Adding existing polls
-        brains = portal_catalog.unrestrictedSearchResults(meta_type='PlonePopoll',
-            allowedRolesAndUsers=['Anonymous'])
+        brains = portal_catalog(object_provides=IPlonePopoll.__identifier__)
         for brain in brains: # Brains
             poll = brain.getObject()
             path = '/'.join(poll.getPhysicalPath())
