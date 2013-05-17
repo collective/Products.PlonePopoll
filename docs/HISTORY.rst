@@ -1,6 +1,14 @@
 Changelog
 =========
 
+2.8b2 (Unreleased)
+------------------
+
+* Accessibility fix: text node replaced with HTML label [keul]
+* Do not raise Unauthorized error anymore is user can see
+  the Poll but not vote [keul]
+* Description field is now displayed [keul] 
+
 2.8b1 (2013-03-05)
 ------------------
 

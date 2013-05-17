@@ -33,10 +33,9 @@
           tal:define="object_url python:here.absolute_url();"
           tal:attributes="action string:${object_url}/vote">
 
-      <p class="documentDescription">
-        <metal:field use-macro="python:here.widget('question', mode='view')">
-          Description
-        </metal:field>
+      <p class="documentDescription" tal:condition="context/contentDescription"
+	     tal:content="context/contentDescription">
+      	Poll description (the real one)
       </p>
 
       <div tal:replace="structure provider:plone.abovecontentbody" />
@@ -50,9 +49,8 @@
                                  id    string:cb${repeat/choice/index};
                                  type python:test((number > 1), 'checkbox', 'radio');"
                  tal:condition="canVote"/>
-          <span tal:replace="python:choice[0]">
-            Choice
-          </span>
+	      <label tal:attributes="for string:cb${repeat/choice/index};"
+	             tal:content="python:choice[0]">Choice</label>
           <!-- transient results -->
           <div tal:condition="python:context.isVisible() and (context.hasVoted() or context.getShowCurrentResults())">
             <tal:block
