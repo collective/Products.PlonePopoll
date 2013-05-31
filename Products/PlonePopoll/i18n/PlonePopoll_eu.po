@@ -11,10 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
 "Domain: plonepopoll\n"
 "Language-code: eu\n"
 "Language-name: Basque\n"
-"Preferred-Encodings: utf-8 latin1\n"
 "X-Is-Fallback-For: \n"
 "X-Poedit-Language: Basque\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -26,37 +28,53 @@ msgstr "Emaitzak ezabatu"
 msgid "Vote"
 msgstr "Eman botoa!"
 
-msgid "results_cleared"
-msgstr "Inkestaren emaitzak garbitu dira"
+msgid "add_portlet"
+msgstr "Inkesta kutxa bat gehitu"
 
-msgid "vote_saved"
-msgstr "Botoa gordeta."
+msgid "box_votes"
+msgstr "Botoak:"
+
+msgid "desc_portlet"
+msgstr "Kutxa honek inkestak erakusten ditu"
+
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
 
 msgid "description_polls_list"
 msgstr "Azken inkestak, dataren arabera atzekoz aurrera ordenatuta"
 
 msgid "description_vote"
-msgstr ""
-"Gehienez ${number} aukeraren aldeko botoa eman dezakezu. Berriz bozkatuz "
-"gero, aurreko botua ordezkatuko duzu."
+msgstr "Gehienez ${number} aukeraren aldeko botoa eman dezakezu. Berriz bozkatuz gero, aurreko botua ordezkatuko duzu."
+
+msgid "edit_portlet"
+msgstr "Inkestaren kutxa editatu"
 
 msgid "heading_polls_list"
 msgstr "Inkestak"
 
-msgid "label_answers"
-msgstr "Erantzunak"
+msgid "heading_portlet_polls"
+msgstr "Inkesta"
 
 msgid "help_answers"
 msgstr "Erantzun posible guztiak sartu, bat lerro bakoitzean."
 
-msgid "label_choice_count"
-msgstr "Aukera kopurua"
-
 msgid "help_choice_count"
 msgstr "Aukera ezberdinen kopurua sartu"
 
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "PlonePopoll portletean agertu beharreko inkesta aukeratu"
+
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Mesedez aukeratu erakutziko diren inkesten gehienezko kopurua (erakuspen moduarako adierazgarria denean)"
+
 msgid "help_poll_results_visibility"
 msgstr "Zehaztu ea Inkestaren emaitzak ikusgarri egotea nahi duzun"
+
+msgid "help_poll_show_current_results"
+msgstr "Zehaztu ea emaitzak botoa eman baino lehen ikusi ahal izatea nahi duzun"
 
 msgid "help_poll_status"
 msgstr "Zehaztu ea Inkesta gaituta egotea nahi duzun"
@@ -64,14 +82,36 @@ msgstr "Zehaztu ea Inkesta gaituta egotea nahi duzun"
 msgid "help_question"
 msgstr "Inkestaren galdera sartu"
 
+msgid "label_answers"
+msgstr "Erantzunak"
+
+msgid "label_choice_count"
+msgstr "Aukera kopurua"
+
+# Portlet
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "PlonePopoll portleta"
+
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Erakutsiko diren inkesten kopurua"
+
 msgid "label_poll_show_current_results"
 msgstr "Bozkaketa pantailan emaitzak erakutzi"
 
-msgid "help_poll_show_current_results"
-msgstr "Zehaztu ea emaitzak botoa eman baino lehen ikusi ahal izatea nahi duzun"
-
 msgid "label_poll_status"
 msgstr "Inkesta gaituta"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Lehenego inkesta"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Ezkutuan"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Inkesta berriena"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Hemengo eta azpiadarretako lehengo inkesta"
 
 msgid "label_question"
 msgstr "Galdera"
@@ -84,6 +124,9 @@ msgstr "Guztizko bozkak"
 
 msgid "message_check_count"
 msgstr "${checked} hautapen egin dituzu. Baimendutako gehienez ${max} egin ahal dira."
+
+msgid "results_cleared"
+msgstr "Inkestaren emaitzak garbitu dira"
 
 msgid "text_no_poll"
 msgstr "Ez dago inkestarik"
@@ -103,44 +146,6 @@ msgstr "${vote_count} pertsonak eman dute botoa."
 msgid "text_votes_per_choice"
 msgstr "(${choice_count} boto)"
 
+msgid "vote_saved"
+msgstr "Botoa gordeta."
 
-# Portlet
-
-msgid "label_plonepopoll_portlet_configuration"
-msgstr "PlonePopoll portleta"
-
-msgid "help_plonepopoll_portlet_configuration"
-msgstr "PlonePopoll portletean agertu beharreko inkesta aukeratu"
-
-msgid "label_plonepopoll_portlet_configuration_number_of_polls"
-msgstr "Erakutsiko diren inkesten kopurua"
-
-msgid "help_plonepopoll_portlet_configuration_number_of_polls"
-msgstr "Mesedez aukeratu erakutziko diren inkesten gehienezko kopurua (erakuspen moduarako adierazgarria denean)"
-
-msgid "heading_portlet_polls"
-msgstr "Inkesta"
-
-msgid "edit_portlet"
-msgstr "Inkestaren kutxa editatu"
-
-msgid "add_portlet"
-msgstr "Inkesta kutxa bat gehitu"
-
-msgid "desc_portlet"
-msgstr "Kutxa honek inkestak erakusten ditu"
-
-msgid "label_portlet_configuration_branch"
-msgstr "Lehenego inkesta"
-
-msgid "label_portlet_configuration_hidden"
-msgstr "Ezkutuan"
-
-msgid "label_portlet_configuration_newest"
-msgstr "Inkesta berriena"
-
-msgid "label_portlet_configuration_subbranches"
-msgstr "Hemengo eta azpiadarretako lehengo inkesta"
-
-msgid "box_votes"
-msgstr "Botoak:"

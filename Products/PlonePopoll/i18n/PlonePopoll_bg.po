@@ -38,6 +38,12 @@ msgstr "Отговори :"
 msgid "desc_portlet"
 msgstr ""
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 #. <div class="description" i18n:translate="description_polls_list">
 #. The latest polls, sorted in reverse chronological order.
 #. </div>

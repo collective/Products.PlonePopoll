@@ -11,17 +11,19 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
 "Language-code: ca\n"
 "Language-name: Catalan\n"
 
-msgid "label_popoll"
+msgid "Popoll portlet"
 msgstr "Enquesta"
 
 msgid "desc_popoll"
 msgstr "Una enquesta per a recollir opinions sobre una pregunta."
 
-msgid "Popoll portlet"
+msgid "label_popoll"
 msgstr "Enquesta"
 

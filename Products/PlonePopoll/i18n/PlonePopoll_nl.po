@@ -21,8 +21,8 @@ msgstr ""
 msgid "Clear results"
 msgstr "Resultaten wissen"
 
-#
-#
+# 
+# 
 msgid "Vote"
 msgstr "Stem"
 
@@ -35,11 +35,17 @@ msgstr "Stemmen: "
 msgid "desc_portlet"
 msgstr "portlet omschrijving"
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "De laatste enquêtes, in omgekeerde chronologische volgorde."
 
-#
-#
+# 
+# 
 msgid "description_vote"
 msgstr "U kunt maximaal ${number} keer stemmen per enquête. Indien u nogmaals stemt, wordt uw oude stem overschreven."
 
@@ -78,13 +84,13 @@ msgstr "Kies of u de enquête aan of uit wilt zetten."
 msgid "help_question"
 msgstr "Voer de vraag van de enquête in."
 
-#
-#
+# 
+# 
 msgid "label_answers"
 msgstr "Antwoorden"
 
-#
-#
+# 
+# 
 msgid "label_choice_count"
 msgstr "Aantal antwoorden"
 
@@ -123,7 +129,7 @@ msgstr "Zichtbaar"
 msgid "legend_total_votes"
 msgstr "Totaal aantal stemmen"
 
-#
+# 
 # `
 msgid "message_check_count"
 msgstr "U heeft ${checked} keuzes gemaakt. Het toegestane maximum is ${max}."
@@ -134,13 +140,13 @@ msgstr "Resultaten gewist"
 msgid "text_no_poll"
 msgstr "Er zijn geen enquêtes gevonden."
 
-#
-#
+# 
+# 
 msgid "text_not_enable"
 msgstr "De enquête staat uit."
 
-#
-#
+# 
+# 
 msgid "text_person_vote_count"
 msgstr "Er hebben ${person_count} gestemd."
 

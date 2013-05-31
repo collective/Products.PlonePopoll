@@ -26,35 +26,55 @@ msgstr "Azzera i risultati"
 msgid "Vote"
 msgstr "Voto"
 
-msgid "results_cleared"
-msgstr "I risultati del sondaggio sono stati azzerati."
+msgid "add_portlet"
+msgstr "Aggiungi un riquadro dei sondaggi"
 
-msgid "vote_saved"
-msgstr "Il voto è stato salvato."
+msgid "box_votes"
+msgstr "Voti :"
+
+msgid "desc_portlet"
+msgstr "Questo riquadro mostrerà i sondaggi."
+
+msgid "description_already_voted"
+msgstr "Hai già votato per questo sondaggio."
+
+msgid "description_cant_vote"
+msgstr "Non puoi votare per questo sondaggio.."
 
 msgid "description_polls_list"
-msgstr "GLi ultimi sondaggi, inversamente ordinati cronologicamente."
+msgstr "Gli ultimi sondaggi, inversamente ordinati cronologicamente."
 
 msgid "description_vote"
 msgstr "Puoi votare al massimo per ${number} voci nel sondaggio. Se voti di nuovo, il vecchio voto sarà rimpiazzato da quello nuovo."
 
+msgid "edit_portlet"
+msgstr "Modifica il riquadro dei sondaggi"
+
 msgid "heading_polls_list"
 msgstr "Riquadro Sondaggi"
 
-msgid "label_answers"
-msgstr "Risposte"
+msgid "heading_portlet_polls"
+msgstr "Sondaggio"
 
 msgid "help_answers"
 msgstr "Inserisci ogni possibile risposta. Una per linea."
 
-msgid "label_choice_count"
-msgstr "Numero risposte"
-
 msgid "help_choice_count"
 msgstr "Inserisci il numero di risposte che un utente può dare."
 
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Seleziona nella lista seguente, la configurazione della portlet sondaggi."
+
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Per favore mostra il numero massimo di sondaggi da mostrare (quando è richiesto dalla modalità di visualizzazione scelta)"
+
 msgid "help_poll_results_visibility"
 msgstr "Seleziona se vuoi rendere visibili le risposte al sondaggio."
+
+msgid "help_poll_show_current_results"
+msgstr ""
+"Seleziona se mostrare i risultati del sondaggio prima del voto.\n"
+"Nota bene: gli utenti non abilitati al voto non potranno vedere i risultati del sondaggio se non selezioni questo controllo."
 
 msgid "help_poll_status"
 msgstr "Seleziona se vuoi attivare il sondaggio."
@@ -62,14 +82,36 @@ msgstr "Seleziona se vuoi attivare il sondaggio."
 msgid "help_question"
 msgstr "Inserisci la domanda del sondaggio."
 
+msgid "label_answers"
+msgstr "Risposte"
+
+msgid "label_choice_count"
+msgstr "Numero risposte"
+
+# Portlet
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Modalità di visualizzazione dei sondaggi"
+
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Numero di sondaggi da mostrare"
+
 msgid "label_poll_show_current_results"
 msgstr "Mostra i risultati prima del voto"
 
-msgid "help_poll_show_current_results"
-msgstr "Seleziona se mostrare i risultati del sondaggio prima del voto."
-
 msgid "label_poll_status"
 msgstr "Sondaggio attivo"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Primo sondaggio nel contesto"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Nascosto"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Ultimo sondaggio"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Primo sondaggio nel contesto o nelle sottocartelle"
 
 msgid "label_question"
 msgstr "Domanda"
@@ -82,6 +124,9 @@ msgstr "Voti totali"
 
 msgid "message_check_count"
 msgstr "Hai effettuato ${checked} scelte. Il massimo concesso è di ${max}."
+
+msgid "results_cleared"
+msgstr "I risultati del sondaggio sono stati azzerati."
 
 msgid "text_no_poll"
 msgstr "Nessun sondaggio è stato creato."
@@ -101,44 +146,6 @@ msgstr "${vote_count} voti totali per questo sondaggio."
 msgid "text_votes_per_choice"
 msgstr "(${choice_count} voti)"
 
+msgid "vote_saved"
+msgstr "Il voto è stato salvato."
 
-# Portlet
-
-msgid "label_plonepopoll_portlet_configuration"
-msgstr "Modalità di visualizzazione dei sondaggi"
-
-msgid "help_plonepopoll_portlet_configuration"
-msgstr "Seleziona nella lista seguente, la configurazione della portlet sondaggi."
-
-msgid "label_plonepopoll_portlet_configuration_number_of_polls"
-msgstr "Numero di sondaggi da mostrare"
-
-msgid "help_plonepopoll_portlet_configuration_number_of_polls"
-msgstr "Per favore mostra il numero massimo di sondaggi da mostrare (quando è richiesto dalla modalità di visualizzazione scelta)"
-
-msgid "heading_portlet_polls"
-msgstr "Sondaggio"
-
-msgid "edit_portlet"
-msgstr "Modifica il riquadro dei sondaggi"
-
-msgid "add_portlet"
-msgstr "Aggiungi un riquadro dei sondaggi"
-
-msgid "desc_portlet"
-msgstr "Questo riquadro mostrerà i sondaggi."
-
-msgid "label_portlet_configuration_branch"
-msgstr "Primo sondaggio nel contesto"
-
-msgid "label_portlet_configuration_hidden"
-msgstr "Nascosto"
-
-msgid "label_portlet_configuration_newest"
-msgstr "Ultimo sondaggio"
-
-msgid "label_portlet_configuration_subbranches"
-msgstr "Primo sondaggio nel contesto o nelle sottocartelle"
-
-msgid "box_votes"
-msgstr "Voti :"

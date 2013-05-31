@@ -9,6 +9,8 @@ Changelog
   the Poll but not vote [keul]
 * Description field is now displayed [keul] 
 * Do not filter Popoll in portlet for anonymous (close `#1`__) [micecchi, keul] 
+* Some additional user messages in the Poll view [keul]
+* Restored natural Plone order for field in the Poll view [keul]
 
 __ https://github.com/collective/Products.PlonePopoll/issues/1
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Syncing PlonePopoll domain PO files..."
 for PO in PlonePopoll_??.po; do
