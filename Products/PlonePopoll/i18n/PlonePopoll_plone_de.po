@@ -1,5 +1,5 @@
 # Gettext Message File for PlonePopoll.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"
@@ -21,11 +21,11 @@ msgstr ""
 "X-Is-Fallback-For: de\n"
 
 msgid "Popoll portlet"
-msgstr ""
+msgstr "Umfrage"
 
 msgid "desc_popoll"
-msgstr ""
+msgstr "Eine Umfrage um Meinungen zu Fragen zu erhalten."
 
 msgid "label_popoll"
-msgstr ""
+msgstr "Umfrage"
 
