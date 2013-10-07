@@ -55,8 +55,6 @@
               tal:define="object_url python:here.absolute_url();"
               tal:attributes="action string:${object_url}/vote">
     
-          <div tal:replace="structure provider:plone.abovecontentbody" />
-    
           <fieldset>
             <ul>
             <li tal:repeat="choice here/getResults">
