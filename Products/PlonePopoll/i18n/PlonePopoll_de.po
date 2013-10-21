@@ -1,5 +1,5 @@
 # Gettext Message File for PlonePopoll.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"
@@ -23,8 +23,8 @@ msgstr ""
 msgid "Clear results"
 msgstr "Ergebnis löschen"
 
-# 
-# 
+#
+#
 msgid "Vote"
 msgstr "Abstimmen"
 
@@ -40,10 +40,10 @@ msgstr ""
 msgid "description_polls_list"
 msgstr "Die neuesten Umfragen, sortiert in umgekehrter chronologischer Reihenfolge."
 
-# 
-# 
+#
+#
 msgid "description_vote"
-msgstr "Sie können bei dieser Umfrage ${number} Option(en) auswählen. Wählst du ein weiteres Mal, so wird deine alte Auswahl durch die neue ersetzt."
+msgstr "Sie können bei dieser Umfrage ${number} Option(en) auswählen. Wählen Sie ein weiteres Mal, so wird die alte Auswahl durch die neue ersetzt."
 
 msgid "edit_portlet"
 msgstr ""
@@ -80,13 +80,13 @@ msgstr "Wählen Sie aus, ob die Umfrage aktiv sein soll."
 msgid "help_question"
 msgstr "Tragen Sie hier die Frage ein."
 
-# 
-# 
+#
+#
 msgid "label_answers"
 msgstr "Antworten"
 
-# 
-# 
+#
+#
 msgid "label_choice_count"
 msgstr "Anzahl Antworten"
 
@@ -125,8 +125,8 @@ msgstr "Sichtbar"
 msgid "legend_total_votes"
 msgstr "Stimmen"
 
-# 
-# 
+#
+#
 msgid "message_check_count"
 msgstr "Sie haben ${checked} Optionen ausgewählt. Sie dürfen maximal ${max} Optionen wählen."
 
@@ -136,13 +136,13 @@ msgstr ""
 msgid "text_no_poll"
 msgstr "Es wurden noch keine Umfragen veröffentlicht."
 
-# 
-# 
+#
+#
 msgid "text_not_enable"
 msgstr "Die Umfrage ist nicht aktiv."
 
-# 
-# 
+#
+#
 msgid "text_person_vote_count"
 msgstr "({$person_count} Benutzer haben abgestimmt)"
 
