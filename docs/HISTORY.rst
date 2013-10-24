@@ -12,6 +12,7 @@ Changelog
 * Some additional user messages in the Poll view [keul]
 * Restored natural Plone order for field in the Poll view [keul]
 * Fixed Poll view for Plone 4 compatibility [cekk]
+* Changed edit permission for portlet: plone.app.portlets.ManagePortlets [cekk]
 
 __ https://github.com/collective/Products.PlonePopoll/issues/1
 

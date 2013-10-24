@@ -36,7 +36,7 @@
      addview=".browser.popoll.AddForm"
      editview=".browser.popoll.EditForm"
      view_permission="zope2.View"
-     edit_permission="cmf.ManagePortal"
+     edit_permission="plone.app.portlets.ManagePortlets"
      />
 
   <!-- AT base object has deprecated manage... -->
