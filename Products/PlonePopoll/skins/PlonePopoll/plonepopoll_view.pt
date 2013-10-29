@@ -33,12 +33,6 @@
           tal:define="object_url python:here.absolute_url();"
           tal:attributes="action string:${object_url}/vote">
 
-      <p class="documentDescription">
-        <metal:field use-macro="python:here.widget('question', mode='view')">
-          Description
-        </metal:field>
-      </p>
-
       <div tal:replace="structure provider:plone.abovecontentbody" />
 
       <fieldset>
