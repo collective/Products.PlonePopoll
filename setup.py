@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 import os
 
-version = '2.8b1'
+version = '2.8b2dev'
 
 setup(name='Products.PlonePopoll',
       version=version,

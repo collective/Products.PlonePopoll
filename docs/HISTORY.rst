@@ -1,11 +1,20 @@
 Changelog
 =========
 
+2.8b2 (unreleased)
+------------------
+- Fix a selection bug when your choice is greater than 10. 
+  [boulch]
+
+- Add minimal buildout 
+  [bsuttor]
+
+- Include permission from Products.CMFCore for fixing zcml error 
+  [bsuttor]
+
+
 2.8b1 (2013-03-05)
 ------------------
-* Fix a selection bug when your choice is greater than 10.
-* Add minimal buildout [bsuttor]
-* Include permission from Products.CMFCore for fixing zcml error [bsuttor]
 * Fixed italian translation (micecchi)
 * Moved repo to Plone github collective [sneridagh]
 * Plone 4.3 support [sneridagh]
