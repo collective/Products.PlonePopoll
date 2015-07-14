@@ -4,6 +4,8 @@ Changelog
 2.8b1 (2013-03-05)
 ------------------
 
+* Add minimal buildout [bsuttor]
+* Include permission from Products.CMFCore for fixing zcml error [bsuttor]
 * Fixed italian translation (micecchi)
 * Moved repo to Plone github collective [sneridagh]
 * Plone 4.3 support [sneridagh]
