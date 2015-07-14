@@ -82,6 +82,11 @@ class PlonePopoll(atct.ATCTContent):
         "Returns the description of the poll, which is in fact the question"
         return self.getQuestion()
 
+    security.declareProtected(permissions.View, 'contentDescription')
+    def contentDescription(self):
+        "Returns the description of the poll, which is in fact the question"
+        return self.getField('description').get(self)
+
     security.declareProtected(permissions.View, 'getVoteId')
     def getVoteId(self):
         """ return unique vote id """
@@ -168,7 +173,7 @@ class PlonePopoll(atct.ATCTContent):
             return response.redirect(url)
 
 
-    security.declareProtected(PlonePopoll_votePermission, "hasVoted")
+    security.declareProtected(permissions.View, "hasVoted")
     def hasVoted(self):
         """
         hasVoted(self)

@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.8b2dev'
+version = '2.8b2.dev2'
 
 setup(name='Products.PlonePopoll',
       version=version,

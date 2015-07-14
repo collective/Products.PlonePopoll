@@ -58,7 +58,9 @@ msgid "help_question"
 msgstr "Enter the Poll question."
 
 msgid "label_poll_show_current_results"
-msgstr "Show results on vote screen"
+msgstr ""
+"Show results on vote screen.\n"
+"Please note: users not able to vote can\'t see vote results if you don\'t check this."
 
 msgid "help_poll_show_current_results"
 msgstr "Select whether you want results to be visible before to vote."
@@ -137,3 +139,9 @@ msgstr "First poll in branch and sub branches"
 
 msgid "box_votes"
 msgstr "Votes :"
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
+msgid "description_already_voted"
+msgstr "You already voted this poll."

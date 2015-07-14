@@ -38,6 +38,12 @@ msgstr ""
 msgid "desc_portlet"
 msgstr ""
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "La plej aktualaj enketoj, ordigitaj en renversita kronologia sinsekvo."
 

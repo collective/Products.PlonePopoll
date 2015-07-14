@@ -1,7 +1,7 @@
 # Gettext Message File for PlonePopoll.
 # Menelaos Maglis <mmaglis@metacom.gr>, 2006.
-# 
-# 
+#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"

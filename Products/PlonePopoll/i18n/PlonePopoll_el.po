@@ -1,7 +1,7 @@
 # Gettext Message File for PlonePopoll.
 # Menelaos Maglis <mmaglis@metacom.gr>, 2006.
-# 
-# 
+#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"
@@ -23,8 +23,8 @@ msgstr ""
 msgid "Clear results"
 msgstr "Καθαρισμός αποτελεσμάτων"
 
-# 
-# 
+#
+#
 msgid "Vote"
 msgstr "Ψηφίστε"
 
@@ -37,11 +37,17 @@ msgstr "Ψήφοι :"
 msgid "desc_portlet"
 msgstr ""
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "Οι τελευταίες δημοσκοπήσεις, ταξινομημένες με αντίστροφη χρονολογική σειρά."
 
-# 
-# 
+#
+#
 msgid "description_vote"
 msgstr "Μπορείτε να ψηφίσετε το πολύ για ${number} επιλογή(ές) στη δημοσκόπηση. Εάν ψηφίσετε πάλι, η παλιά σας ψήφος αντικαθίσταται από τη νέα."
 
@@ -80,13 +86,13 @@ msgstr "Επιλέξτε αν θέλετε η δημοσκόπηση να είν
 msgid "help_question"
 msgstr "Εισαγωγή ερώτησης Δημοσκόπησης"
 
-# 
-# 
+#
+#
 msgid "label_answers"
 msgstr "Απαντήσεις"
 
-# 
-# 
+#
+#
 msgid "label_choice_count"
 msgstr "Μέτρηση επιλογών"
 
@@ -125,8 +131,8 @@ msgstr "Ορατά"
 msgid "legend_total_votes"
 msgstr "Σύνολο ψήφων"
 
-# 
-# 
+#
+#
 msgid "message_check_count"
 msgstr "Είχατε ${checked} επιλογές. Το μέγιστο επιτρεπτό είναι ${max}."
 
@@ -136,13 +142,13 @@ msgstr ""
 msgid "text_no_poll"
 msgstr "Δεν έχουν δημοσιευθεί δημοσκοπήσεις."
 
-# 
-# 
+#
+#
 msgid "text_not_enable"
 msgstr "Η δημοσκόπηση είναι ανενεργή."
 
-# 
-# 
+#
+#
 msgid "text_person_vote_count"
 msgstr "(${person_count} άτομα έχουν ψηφίσει)"
 

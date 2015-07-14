@@ -1,8 +1,8 @@
 # Gettext Message File for PlonePopoll.
 # translation team <team@domain.com>, 2003-2004
 # <>, 2005.
-# 
-# 
+#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"

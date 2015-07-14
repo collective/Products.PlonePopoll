@@ -51,7 +51,7 @@
 				  id string:popoll_cb_${repeat/poll/index}_${repeat/choice/index};
 				  type poll/input_widget">
 	      <label tal:attributes="for string:popoll_cb_${repeat/poll/index}_${repeat/choice/index}"
-	             tal:content="python:choice[0]" style="font-weight: normal">Choice</label>
+	             tal:content="python:choice[0]">Choice</label>
 		<tal:results tal:condition="poll/show_results">
 		  <div
 		      tal:define="choice_count python: choice[1];

@@ -35,6 +35,12 @@ msgstr "Stemmen: "
 msgid "desc_portlet"
 msgstr "portlet omschrijving"
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "De laatste enquêtes, in omgekeerde chronologische volgorde."
 

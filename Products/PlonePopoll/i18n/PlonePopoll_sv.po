@@ -36,11 +36,17 @@ msgstr ""
 msgid "desc_portlet"
 msgstr ""
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "Senaste omröstningar, ordnad i omvänd kronologisk ordning."
 
-# 
-# 
+#
+#
 msgid "description_vote"
 msgstr ""
 
@@ -82,8 +88,8 @@ msgstr "Skriv in omröstningens fråga"
 msgid "label_answers"
 msgstr "Svar"
 
-# 
-# 
+#
+#
 msgid "label_choice_count"
 msgstr ""
 
@@ -122,8 +128,8 @@ msgstr ""
 msgid "legend_total_votes"
 msgstr "Total antal röster"
 
-# 
-# 
+#
+#
 msgid "message_check_count"
 msgstr ""
 
@@ -136,8 +142,8 @@ msgstr ""
 msgid "text_not_enable"
 msgstr "Denna omröstning är inte aktiverad"
 
-# 
-# 
+#
+#
 msgid "text_person_vote_count"
 msgstr ""
 

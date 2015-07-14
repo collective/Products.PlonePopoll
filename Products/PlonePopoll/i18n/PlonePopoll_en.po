@@ -30,6 +30,12 @@ msgstr "Votes :"
 msgid "desc_portlet"
 msgstr "This box displays polls."
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "The latest polls, sorted in reverse chronological order."
 

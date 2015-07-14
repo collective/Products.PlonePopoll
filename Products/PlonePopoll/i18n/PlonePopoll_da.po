@@ -1,5 +1,5 @@
 # Gettext Message File for PlonePopoll.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgid "Clear results"
 msgstr "fortryd"
 
-# 
-# 
+#
+#
 msgid "Vote"
 msgstr "Stem"
 
@@ -36,11 +36,17 @@ msgstr "Stemmer :"
 msgid "desc_portlet"
 msgstr ""
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "De nyeste afstemninger, sorteret i omvendt kronologisk rækkefølge"
 
-# 
-# 
+#
+#
 msgid "description_vote"
 msgstr "Du kan højst vælge ${number} muligheder. Hvis du stemmer igen, vil din gamle stemme blive erstattet med den nye"
 
@@ -78,13 +84,13 @@ msgstr "Vælg om afstemningen skal være aktiv"
 msgid "help_question"
 msgstr "Skriv afstemningsspørgsmålet her."
 
-# 
-# 
+#
+#
 msgid "label_answers"
 msgstr "Svar"
 
-# 
-# 
+#
+#
 msgid "label_choice_count"
 msgstr "Antal svar"
 
@@ -122,8 +128,8 @@ msgstr "Synlig"
 msgid "legend_total_votes"
 msgstr "Stemmer"
 
-# 
-# 
+#
+#
 msgid "message_check_count"
 msgstr "Du har valgt ${checked} muligheder. Du kan max. vælge ${max} muligheder."
 
@@ -133,13 +139,13 @@ msgstr ""
 msgid "text_no_poll"
 msgstr "Der er ikke offentliggjort nogen afstemninger"
 
-# 
-# 
+#
+#
 msgid "text_not_enable"
 msgstr "Afstemningen er ikke aktiv."
 
-# 
-# 
+#
+#
 msgid "text_person_vote_count"
 msgstr "({$person_count} personer har stemt)"
 
