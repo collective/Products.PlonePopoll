@@ -28,3 +28,7 @@ pip-log.txt
 
 genweb/theme/.sass-cache
 genweb/theme/fontconfig
+
+#Virtualenv
+include/
+lib/
