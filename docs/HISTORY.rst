@@ -3,7 +3,7 @@ Changelog
 
 2.8b1 (2013-03-05)
 ------------------
-
+* Fix a selection bug when your choice is greater than 10.
 * Add minimal buildout [bsuttor]
 * Include permission from Products.CMFCore for fixing zcml error [bsuttor]
 * Fixed italian translation (micecchi)
