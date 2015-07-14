@@ -10,6 +10,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plonepopoll\n"
 "Language-code: ca\n"
@@ -22,11 +24,20 @@ msgstr "Esborrar resultats"
 msgid "Vote"
 msgstr "Voti"
 
-msgid "results_cleared"
-msgstr "S'han buidat els resultats de l'enquesta."
+msgid "add_portlet"
+msgstr "Afegeix una caixa d'enquesta"
 
-msgid "vote_saved"
-msgstr "El vot ha estat guardat"
+msgid "box_votes"
+msgstr "Vots:"
+
+msgid "desc_portlet"
+msgstr "Aquesta caixa mostra enquestes."
+
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
 
 msgid "description_polls_list"
 msgstr "Les últimes enquestes, ordenades en ordre cronològic invers."
@@ -34,23 +45,32 @@ msgstr "Les últimes enquestes, ordenades en ordre cronològic invers."
 msgid "description_vote"
 msgstr "Pot votar com a màxim per ${number} opcions. Si vota una altra vegada, el seu vot vell serà reemplaçat pel nou."
 
+msgid "edit_portlet"
+msgstr "Edita la caixa de l'enquesta"
+
 msgid "heading_polls_list"
 msgstr "Enquestes"
 
-msgid "label_answers"
-msgstr "Respostes"
+msgid "heading_portlet_polls"
+msgstr "Enquesta"
 
 msgid "help_answers"
 msgstr "Introdueixi cada resposta possible en una linea."
 
-msgid "label_choice_count"
-msgstr "Esculli la conta"
-
 msgid "help_choice_count"
 msgstr "Introdueixi el nombre d'opcions disponibles. "
 
+msgid "help_plonepopoll_portlet_configuration"
+msgstr "Trii la configuració del portletl de PlonePopoll "
+
+msgid "help_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Esculli, si us plau, el nombre màxim d'enquestes a mostrar."
+
 msgid "help_poll_results_visibility"
 msgstr "Esculli si vol que els resultats de l'enquesta siguin visibles."
+
+msgid "help_poll_show_current_results"
+msgstr "Esculli si vol que els resultats siguin visibles abans de votar."
 
 msgid "help_poll_status"
 msgstr "Esculli si vol que l'enquesta estigui activa."
@@ -58,14 +78,35 @@ msgstr "Esculli si vol que l'enquesta estigui activa."
 msgid "help_question"
 msgstr "Introdueixi la pregunta de l'enquesta"
 
+msgid "label_answers"
+msgstr "Respostes"
+
+msgid "label_choice_count"
+msgstr "Esculli la conta"
+
+msgid "label_plonepopoll_portlet_configuration"
+msgstr "Portlet PlonePopoll"
+
+msgid "label_plonepopoll_portlet_configuration_number_of_polls"
+msgstr "Nombre d'enquestes a mostrar."
+
 msgid "label_poll_show_current_results"
 msgstr "Mostrar una pantalla amb els resultats dels vots."
 
-msgid "help_poll_show_current_results"
-msgstr "Esculli si vol que els resultats siguin visibles abans de votar."
-
 msgid "label_poll_status"
 msgstr "Enquesta activada"
+
+msgid "label_portlet_configuration_branch"
+msgstr "Primera enquesta de la branca"
+
+msgid "label_portlet_configuration_hidden"
+msgstr "Ocult"
+
+msgid "label_portlet_configuration_newest"
+msgstr "Enquesta més recent"
+
+msgid "label_portlet_configuration_subbranches"
+msgstr "Primera enquesta de la branca i sub-branques"
 
 msgid "label_question"
 msgstr "Pregunta"
@@ -78,6 +119,9 @@ msgstr "Total de vots"
 
 msgid "message_check_count"
 msgstr "Has escollit ${checked}. El màxim autoritzat és ${max}."
+
+msgid "results_cleared"
+msgstr "S'han buidat els resultats de l'enquesta."
 
 msgid "text_no_poll"
 msgstr "No hi ha enquestes."
@@ -97,42 +141,6 @@ msgstr "Hi ha un total de ${vote_count} vots en aquesta enquesta."
 msgid "text_votes_per_choice"
 msgstr "(${choice_count} vots)"
 
-msgid "label_plonepopoll_portlet_configuration"
-msgstr "Portlet PlonePopoll"
-
-msgid "help_plonepopoll_portlet_configuration"
-msgstr "Trii la configuració del portletl de PlonePopoll "
-
-msgid "label_plonepopoll_portlet_configuration_number_of_polls"
-msgstr "Nombre d'enquestes a mostrar."
-
-msgid "help_plonepopoll_portlet_configuration_number_of_polls"
-msgstr "Esculli, si us plau, el nombre màxim d'enquestes a mostrar."
-
-msgid "heading_portlet_polls"
-msgstr "Enquesta"
-
-msgid "edit_portlet"
-msgstr "Edita la caixa de l'enquesta"
-
-msgid "add_portlet"
-msgstr "Afegeix una caixa d'enquesta"
-
-msgid "desc_portlet"
-msgstr "Aquesta caixa mostra enquestes."
-
-msgid "label_portlet_configuration_branch"
-msgstr "Primera enquesta de la branca"
-
-msgid "label_portlet_configuration_hidden"
-msgstr "Ocult"
-
-msgid "label_portlet_configuration_newest"
-msgstr "Enquesta més recent"
-
-msgid "label_portlet_configuration_subbranches"
-msgstr "Primera enquesta de la branca i sub-branques"
-
-msgid "box_votes"
-msgstr "Vots:"
+msgid "vote_saved"
+msgstr "El vot ha estat guardat"
 

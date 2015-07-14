@@ -1,5 +1,7 @@
+exclude .gitignore
+global-exclude *.pyc
+global-include *.mo
+include *
+include *.rst
 recursive-include Products *
 recursive-include docs *
-global-exclude *pyc
-include *
-exclude .gitignore

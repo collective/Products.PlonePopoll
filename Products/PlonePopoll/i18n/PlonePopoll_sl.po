@@ -11,6 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: plonepopoll\n"
 "Language-code: sl\n"
@@ -20,8 +22,8 @@ msgstr ""
 msgid "Clear results"
 msgstr "Počisti rezultate"
 
-# 
-# 
+#
+#
 msgid "Vote"
 msgstr "Glasuj"
 
@@ -34,11 +36,17 @@ msgstr "Glasovi:"
 msgid "desc_portlet"
 msgstr ""
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "Zadnja glasovanja urejena v kronološkem vrstnem redu"
 
-# 
-# 
+#
+#
 msgid "description_vote"
 msgstr "Izberete lahko največ ${number} izbir glasovanja. Če boste glasovali ponovno, bo vaša nova izbira zamenjala vašo prejšnjo."
 
@@ -77,13 +85,13 @@ msgstr "Izberite ali želite omogočiti glasovanje"
 msgid "help_question"
 msgstr "Vstavite vprašanje glasovanja"
 
-# 
-# 
+#
+#
 msgid "label_answers"
 msgstr "Odgovori"
 
-# 
-# 
+#
+#
 msgid "label_choice_count"
 msgstr "Število izbir"
 
@@ -122,8 +130,8 @@ msgstr "Vidno"
 msgid "legend_total_votes"
 msgstr "Skupaj glasov"
 
-# 
-# 
+#
+#
 msgid "message_check_count"
 msgstr "Izbrali ste ${checked} odgovorov. Največ možnih odgovorov je ${max}."
 
@@ -133,13 +141,13 @@ msgstr ""
 msgid "text_no_poll"
 msgstr "Nobenih glasovanj ni bilo objavljenih"
 
-# 
-# 
+#
+#
 msgid "text_not_enable"
 msgstr "Glasovanje ni omogočeno"
 
-# 
-# 
+#
+#
 msgid "text_person_vote_count"
 msgstr "(${person_count} oseb je glasovalo)"
 

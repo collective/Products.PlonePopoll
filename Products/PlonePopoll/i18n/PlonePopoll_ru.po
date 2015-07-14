@@ -18,8 +18,8 @@ msgstr ""
 msgid "Clear results"
 msgstr "Сбросить результаты"
 
-# 
-# 
+#
+#
 msgid "Vote"
 msgstr "Голосовать"
 
@@ -32,11 +32,17 @@ msgstr "Голоса :"
 msgid "desc_portlet"
 msgstr ""
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "Недавние опросы. Более новые в начале."
 
-# 
-# 
+#
+#
 msgid "description_vote"
 msgstr "Вы можете выбрать ${number} вариант(а) ответа. Если вы проголосуете еще раз, ваши ответы будут изменены."
 
@@ -75,13 +81,13 @@ msgstr "Укажите будет ли опрос активным или нет
 msgid "help_question"
 msgstr "Укажите вопрос для опроса."
 
-# 
-# 
+#
+#
 msgid "label_answers"
 msgstr "Ответы"
 
-# 
-# 
+#
+#
 msgid "label_choice_count"
 msgstr "Количество возможных вариантов ответа"
 
@@ -120,8 +126,8 @@ msgstr "Результаты видны"
 msgid "legend_total_votes"
 msgstr "Общее число голосов"
 
-# 
-# 
+#
+#
 msgid "message_check_count"
 msgstr "Вы выбрали ${checked} вариант(а), но вы можете выбрать только ${max} вариант(а)."
 
@@ -131,13 +137,13 @@ msgstr ""
 msgid "text_no_poll"
 msgstr "Нет опросов."
 
-# 
-# 
+#
+#
 msgid "text_not_enable"
 msgstr "Опрос не активен."
 
-# 
-# 
+#
+#
 msgid "text_person_vote_count"
 msgstr "(${person_count} человек проголосовало)"
 

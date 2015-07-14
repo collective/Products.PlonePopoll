@@ -15,6 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
 "Language-code: es\n"
@@ -22,12 +24,12 @@ msgstr ""
 "Preferred-encodings: latin1 utf-8\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
-msgid "label_popoll"
+msgid "Popoll portlet"
 msgstr "Encuesta"
 
 msgid "desc_popoll"
 msgstr "Una encuesta para recoger opiniones sobre una pregunta."
 
-msgid "Popoll portlet"
+msgid "label_popoll"
 msgstr "Encuesta"
 

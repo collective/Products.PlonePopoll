@@ -1,4 +1,3 @@
-# Gettext Message File for PlonePopoll.
 #
 msgid ""
 msgstr ""
@@ -37,13 +36,19 @@ msgstr "Stimmen"
 msgid "desc_portlet"
 msgstr ""
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "Die neuesten Umfragen, sortiert in umgekehrter chronologischer Reihenfolge."
 
 #
 #
 msgid "description_vote"
-msgstr "Sie können bei dieser Umfrage ${number} Option(en) auswählen. Wählen Sie ein weiteres Mal, so wird die alte Auswahl durch die neue ersetzt."
+msgstr "Sie können bei dieser Umfrage ${number} Option(en) auswählen. Wählst du ein weiteres Mal, so wird deine alte Auswahl durch die neue ersetzt."
 
 msgid "edit_portlet"
 msgstr ""

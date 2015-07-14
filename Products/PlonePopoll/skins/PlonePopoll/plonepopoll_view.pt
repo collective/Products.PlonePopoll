@@ -8,97 +8,117 @@
 
 <body>
 
+<metal:content-description fill-slot="content-description">
+  <p class="documentDescription" tal:condition="context/contentDescription"
+     tal:content="context/contentDescription">
+      Poll description (the real one)
+  </p>
+</metal:content-description>
+
 <metal:content-core fill-slot="content-core">
     <metal:content-core define-macro="content-core">
 
     <metal:macro define-macro="plonepopoll_view"
                  tal:define="number here/getNumber_of_choices;
-                             canVote context/canVote">
+                             canVote context/canVote;
+                             hasVoted context/hasVoted">
 
-    <p tal:condition="canVote"
-       i18n:translate="description_vote">
-      You can vote at most for <span i18n:name="number" tal:replace="number">#</span> choice(s) on the poll. If you vote again, your old vote is replaced by the new vote.
-    </p>
-
-    <p i18n:translate="text_not_enable"
-       tal:condition="not: context/isEnabled">
-      The poll is not enabled.
-    </p>
-
-    <form class="group"
-          name="results"
-          action=""
-          method="post"
-          enctype="multipart/form-data"
-          tal:define="object_url python:here.absolute_url();"
-          tal:attributes="action string:${object_url}/vote">
-
-      <div tal:replace="structure provider:plone.abovecontentbody" />
-
-      <fieldset>
-        <ul>
-        <li tal:repeat="choice here/getResults">
-          <input class="noborder"
-                 name="choices"
-                 tal:attributes="value repeat/choice/index;
-                                 id    string:cb${repeat/choice/index};
-                                 type python:test((number > 1), 'checkbox', 'radio');"
-                 tal:condition="canVote"/>
-          <span tal:replace="python:choice[0]">
-            Choice
-          </span>
-          <!-- transient results -->
-          <div tal:condition="python:context.isVisible() and (context.hasVoted() or context.getShowCurrentResults())">
-            <tal:block
-               tal:define="choice_count      python: choice[1];
-                           choice_percentage python: '%0.2f'%choice[2];
-                           bar_percentage    python: int(choice[2]) or 1;
-			   num repeat/choice/number;
-                           num python:num % 10">
-              <img height="10" tal:attributes="width string:${bar_percentage}; src string:${portal_url}/bar_${num}.gif; alt string:${choice_percentage}%" />
-
-              <span tal:content="structure string:${choice_count} (${choice_percentage}%)">150 (14%)</span>
-            </tal:block>
+        <div id="popoll">
+        <p class="documentDescription pollQuestion" tal:condition="context/Description"
+           tal:content="context/Description">
+              This is the question
+        </p>
+        
+        <p tal:condition="python:not canVote and not hasVoted"
+           i18n:translate="description_cant_vote">
+          You can't vote for this poll.
+        </p>
+        <p tal:condition="python:not canVote and hasVoted"
+           i18n:translate="description_already_voted">
+          You already voted this poll.
+        </p>
+        <p tal:condition="canVote"
+           i18n:translate="description_vote">
+          You can vote at most for <span i18n:name="number" tal:replace="number">#</span> choice(s) on the poll. If you vote again, your old vote is replaced by the new vote.
+        </p>
+    
+        <p i18n:translate="text_not_enable"
+           tal:condition="not: context/isEnabled">
+          The poll is not enabled.
+        </p>
+    
+        <form class="group"
+              name="results"
+              action=""
+              method="post"
+              enctype="multipart/form-data"
+              tal:define="object_url python:here.absolute_url();"
+              tal:attributes="action string:${object_url}/vote">
+    
+          <fieldset>
+            <ul>
+            <li tal:repeat="choice here/getResults">
+              <input class="noborder"
+                     name="choices"
+                     tal:attributes="value repeat/choice/index;
+                                     id    string:cb${repeat/choice/index};
+                                     type python:test((number > 1), 'checkbox', 'radio');"
+                     tal:condition="canVote"/>
+              <label tal:attributes="for string:cb${repeat/choice/index};"
+                     tal:content="python:choice[0]">Choice</label>
+              <!-- transient results -->
+              <div tal:condition="python:context.isVisible() and (hasVoted or context.getShowCurrentResults())">
+                <tal:block
+                   tal:define="choice_count      python: choice[1];
+                               choice_percentage python: '%0.2f'%choice[2];
+                               bar_percentage    python: int(choice[2]) or 1;
+                   num repeat/choice/number;
+                               num python:num % 10">
+                  <img height="10" tal:attributes="width string:${bar_percentage}; src string:${portal_url}/bar_${num}.gif; alt string:${choice_percentage}%" />
+    
+                  <span tal:content="structure string:${choice_count} (${choice_percentage}%)">150 (14%)</span>
+                </tal:block>
+              </div>
+            </li>
+            </ul>
+          </fieldset>
+    
+          <div class="field"
+               tal:define="vote_count python:here.getVotesCount()">
+            <fieldset>
+    
+              <legend i18n:translate="legend_total_votes">Total votes</legend>
+    
+              <div i18n:translate="text_votes_count">
+                <span i18n:name="vote_count" tal:content="structure string:${vote_count}">
+                  people have voted on this poll.
+                </span>
+                votes on this poll.
+              </div>
+              <div tal:condition="python: here.getNumber_of_choices() > 1"
+                   tal:define="person_count here/getPersonVoteCount"
+                   i18n:translate="text_person_vote_count">
+                (<span i18n:name="person_count" tal:replace="person_count">#</span> persons have voted)
+              </div>
+            </fieldset>
           </div>
-        </li>
-        </ul>
-      </fieldset>
-
-      <div class="field"
-           tal:define="vote_count python:here.getVotesCount()">
-        <fieldset>
-
-          <legend i18n:translate="legend_total_votes">Total votes</legend>
-
-          <div i18n:translate="text_votes_count">
-            <span i18n:name="vote_count" tal:content="structure string:${vote_count}">
-              people have voted on this poll.
-            </span>
-            votes on this poll.
+    
+          <div class="formControls">
+            <input class="context"
+                   type="submit"
+                   name="vote"
+                   value="Vote"
+                   i18n:attributes="value"
+                   tal:condition="canVote" />
+            <input class="context"
+                   type="submit"
+                   name="clear"
+                   value="Clear results"
+                   i18n:attributes="value"
+                   tal:condition="python: here.portal_membership.checkPermission('Popoll: Edit polls', here)" />
           </div>
-          <div tal:condition="python: here.getNumber_of_choices() > 1"
-               tal:define="person_count here/getPersonVoteCount"
-               i18n:translate="text_person_vote_count">
-            (<span i18n:name="person_count" tal:replace="person_count">#</span> persons have voted)
-          </div>
-        </fieldset>
-      </div>
-
-      <div class="formControls">
-        <input class="context"
-               type="submit"
-               name="vote"
-               value="Vote"
-               i18n:attributes="value"
-               tal:condition="canVote" />
-        <input class="context"
-               type="submit"
-               name="clear"
-               value="Clear results"
-               i18n:attributes="value"
-               tal:condition="python: here.portal_membership.checkPermission('Popoll: Edit polls', here)" />
-      </div>
-    </form>
+        </form>
+        </div>
 
     </metal:macro>
 

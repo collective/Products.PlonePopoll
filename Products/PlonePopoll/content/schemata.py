@@ -82,7 +82,8 @@ PollSchema = atct.ATContentTypeSchema.copy() + Schema((
         widget     = BooleanWidget(
             label             = 'Show results on vote screen',
             label_msgid       = 'label_poll_show_current_results',
-            description       = 'Select whether you want to show current results on vote page or portlet',
+            description       = 'Select whether you want to show current results on vote page or portlet.\n'
+                                'Please note: users not able to vote can\'t see vote results if you don\'t check this.',
             description_msgid = 'help_poll_show_current_results',
             i18n_domain       = 'plonepopoll',
         )

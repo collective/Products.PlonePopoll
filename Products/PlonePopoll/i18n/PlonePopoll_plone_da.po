@@ -1,5 +1,5 @@
 # Gettext Message File for PlonePopoll.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"

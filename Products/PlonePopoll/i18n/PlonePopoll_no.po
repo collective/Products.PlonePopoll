@@ -3,9 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PlonePopoll\n"
-"POT-Creation-Date: 2008-12-23 13:19+0100\n"
+"POT-Creation-Date: 2003-03-17 09:03+0100\n"
 "PO-Revision-Date: 2008-12-23 13:25+0100\n"
 "Last-Translator: Morten W. Petersen <morten@nidelven-it.no>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "Domain: plonepopoll\n"
 "Language-code: no\n"
 "Language-name: Norwegian\n"
-"Language-Team: \n"
 
 # btn
 msgid "Clear results"
@@ -35,6 +35,12 @@ msgstr "Stemmer :"
 
 msgid "desc_portlet"
 msgstr "Denne boksen viser avstemninger"
+
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
 
 msgid "description_polls_list"
 msgstr "De nyeste avstemninger, sortert i omvendt kronologisk rekkefølge"

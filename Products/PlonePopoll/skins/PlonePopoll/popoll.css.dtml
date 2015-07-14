@@ -16,4 +16,8 @@
  margin: 0;
 }
 
+#popoll .pollQuestion {
+	font-size: 120%;
+}
+
 /* </dtml-with>  */

@@ -21,8 +21,8 @@ msgstr ""
 msgid "Clear results"
 msgstr "Supprimer les résultats"
 
-# 
-# 
+#
+#
 msgid "Vote"
 msgstr "Voter"
 
@@ -35,11 +35,17 @@ msgstr "Votes :"
 msgid "desc_portlet"
 msgstr "Cette boîte affiche un sondage."
 
+msgid "description_already_voted"
+msgstr "You already voted this poll."
+
+msgid "description_cant_vote"
+msgstr "You can't vote for this poll."
+
 msgid "description_polls_list"
 msgstr "Les derniers sondages, présentés dans l'ordre chronologique inverse."
 
-# 
-# 
+#
+#
 msgid "description_vote"
 msgstr "Vous pouvez voter pour au moins ${number} choix sur le sondage. Si vous votez plusieurs fois, seul votre dernier vote est pris en compte."
 
@@ -78,12 +84,12 @@ msgstr "Cochez la case si vous voulez que le sondage soit activé."
 msgid "help_question"
 msgstr "Saisissez la question du sondage."
 
-# 
-# 
+#
+#
 msgid "label_answers"
 msgstr "Réponses"
 
-# 
+#
 msgid "label_choice_count"
 msgstr "Nombre de choix"
 
@@ -122,8 +128,8 @@ msgstr "Afficher les résultats après le vote"
 msgid "legend_total_votes"
 msgstr "Nombre total de votes"
 
-# 
-# 
+#
+#
 msgid "message_check_count"
 msgstr "Vous avez fait ${checked} choix mais vous ne pouvez en faire que ${max} au maximum."
 
@@ -133,13 +139,13 @@ msgstr "Les résultats du vote ont été remis à zéro."
 msgid "text_no_poll"
 msgstr "Aucun sondage n'est actuellement publié."
 
-# 
-# 
+#
+#
 msgid "text_not_enable"
 msgstr "Le sondage n'est pas activé."
 
-# 
-# 
+#
+#
 msgid "text_person_vote_count"
 msgstr "(${person_count} personnes ont votés)"
 
