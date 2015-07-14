@@ -126,8 +126,11 @@ class PlonePopoll(atct.ATCTContent):
 
         request = self.REQUEST
         response = request.RESPONSE
-
-        checkedCount = len(choices)
+        # choices contains the user choice (if 1 result max OR a table of results if authorized result > 1)
+        if type(choices) is str:
+            checkedCount = 1
+        else:
+            checkedCount = len(choices)
         max_votes = int(self.getNumber_of_choices())
         if clear:
             self.clearResults()
@@ -143,13 +146,17 @@ class PlonePopoll(atct.ATCTContent):
                 portal_popoll = getToolByName(self, 'portal_popoll')
                 # Ensure unicity of the vote
                 unicity = portal_popoll.getVoteUnicity(self.getVoteId(), create=1)
-                for choice in choices:
-                    # Check that choice is valid
-                    if int(choice) >= len(self.choices) or int(choice) < 0:
+                if type(choices) is str:
+                    if int(choices) < 0:
                         raise ValueError, "Invalid choice"
-
-                    # Call the method in the backend to store the vote
-                    portal_popoll.getBackend().vote(self.getVoteId(), int(choice), unicity)
+                    portal_popoll.getBackend().vote(self.getVoteId(), int(choices), unicity)
+                else:
+                    for choice in choices:
+                        # Check that choice is valid
+                        if int(choice) >= len(self.choices) or int(choice) < 0:
+                            raise ValueError, "Invalid choice"
+                        # Call the method in the backend to store the vote
+                        portal_popoll.getBackend().vote(self.getVoteId(), int(choice), unicity)
                 msgstr = "Vote has been saved."
                 msgid = "vote_saved"
 
