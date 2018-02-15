@@ -3,6 +3,10 @@ Changelog
 
 2.8b2 (unreleased)
 ------------------
+
+- Remove pseudo-field ``contentDescription`` and its use in Poll view.
+  [khink]
+
 - Fix a selection bug when your choice is greater than 10.
   [boulch]
 
