@@ -24,7 +24,7 @@
            tal:content="context/Description">
               This is the question
         </p>
-        
+
         <p tal:condition="python:not canVote and not hasVoted"
            i18n:translate="description_cant_vote">
           You can't vote for this poll.
@@ -37,12 +37,12 @@
            i18n:translate="description_vote">
           You can vote at most for <span i18n:name="number" tal:replace="number">#</span> choice(s) on the poll. If you vote again, your old vote is replaced by the new vote.
         </p>
-    
+
         <p i18n:translate="text_not_enable"
            tal:condition="not: context/isEnabled">
           The poll is not enabled.
         </p>
-    
+
         <form class="group"
               name="results"
               action=""
@@ -50,7 +50,7 @@
               enctype="multipart/form-data"
               tal:define="object_url python:here.absolute_url();"
               tal:attributes="action string:${object_url}/vote">
-    
+
           <fieldset>
             <ul>
             <li tal:repeat="choice here/getResults">
@@ -71,20 +71,20 @@
                    num repeat/choice/number;
                                num python:num % 10">
                   <img height="10" tal:attributes="width string:${bar_percentage}; src string:${portal_url}/bar_${num}.gif; alt string:${choice_percentage}%" />
-    
+
                   <span tal:content="structure string:${choice_count} (${choice_percentage}%)">150 (14%)</span>
                 </tal:block>
               </div>
             </li>
             </ul>
           </fieldset>
-    
+
           <div class="field"
                tal:define="vote_count python:here.getVotesCount()">
             <fieldset>
-    
+
               <legend i18n:translate="legend_total_votes">Total votes</legend>
-    
+
               <div i18n:translate="text_votes_count">
                 <span i18n:name="vote_count" tal:content="structure string:${vote_count}">
                   people have voted on this poll.
@@ -98,7 +98,7 @@
               </div>
             </fieldset>
           </div>
-    
+
           <div class="formControls">
             <input class="context"
                    type="submit"
