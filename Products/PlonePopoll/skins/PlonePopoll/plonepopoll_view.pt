@@ -9,10 +9,6 @@
 <body>
 
 <metal:content-description fill-slot="content-description">
-  <p class="documentDescription" tal:condition="context/contentDescription"
-     tal:content="context/contentDescription">
-      Poll description (the real one)
-  </p>
 </metal:content-description>
 
 <metal:content-core fill-slot="content-core">
