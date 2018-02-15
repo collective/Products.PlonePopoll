@@ -3,35 +3,35 @@ Changelog
 
 2.8b2 (unreleased)
 ------------------
-- Fix a selection bug when your choice is greater than 10. 
+- Fix a selection bug when your choice is greater than 10.
   [boulch]
 
-- Add minimal buildout 
+- Add minimal buildout
   [bsuttor]
 
-- Include permission from Products.CMFCore for fixing zcml error 
+- Include permission from Products.CMFCore for fixing zcml error
   [bsuttor]
 
-- Accessibility fix: text node replaced with HTML label 
+- Accessibility fix: text node replaced with HTML label
   [keul]
 
 - Do not raise Unauthorized error anymore is user can see
-  the Poll but not vote 
+  the Poll but not vote
   [keul]
 
-- Description field is now displayed 
-  [keul] 
-
-- Do not filter Popoll in portlet for anonymous (close `#1`__) 
-  [micecchi, keul] 
-
-- Some additional user messages in the Poll view 
+- Description field is now displayed
   [keul]
 
-- Restored natural Plone order for field in the Poll view 
+- Do not filter Popoll in portlet for anonymous (close `#1`__)
+  [micecchi, keul]
+
+- Some additional user messages in the Poll view
   [keul]
 
-- Fixed Poll view for Plone 4 compatibility 
+- Restored natural Plone order for field in the Poll view
+  [keul]
+
+- Fixed Poll view for Plone 4 compatibility
   [cekk]
 
 __ https://github.com/collective/Products.PlonePopoll/issues/1
