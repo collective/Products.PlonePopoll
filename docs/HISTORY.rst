@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.8b2 (unreleased)
+2.8b2 (2018-03-01)
 ------------------
 
 - Remove pseudo-field ``contentDescription`` and its use in Poll view.
