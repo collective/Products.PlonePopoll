@@ -36,10 +36,10 @@ msgid "desc_portlet"
 msgstr "portlet omschrijving"
 
 msgid "description_already_voted"
-msgstr "You already voted this poll."
+msgstr "U heeft al op deze enquête gestemd."
 
 msgid "description_cant_vote"
-msgstr "You can't vote for this poll."
+msgstr "U kunt niet op deze enquête stemmen."
 
 msgid "description_polls_list"
 msgstr "De laatste enquêtes, in omgekeerde chronologische volgorde."
@@ -157,7 +157,7 @@ msgid "text_votes_count"
 msgstr "Er is ${vote_count} keer op deze enquête gestemd."
 
 msgid "text_votes_per_choice"
-msgstr "(${choice_count} votes)"
+msgstr "(${choice_count} stemmen)"
 
 msgid "vote_saved"
 msgstr "Stem opgeslagen"
