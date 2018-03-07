@@ -37,10 +37,10 @@ msgid "desc_portlet"
 msgstr ""
 
 msgid "description_already_voted"
-msgstr "You already voted this poll."
+msgstr "Sie haben schon abgestimmt."
 
 msgid "description_cant_vote"
-msgstr "You can't vote for this poll."
+msgstr "Sie können nicht abstimmen."
 
 msgid "description_polls_list"
 msgstr "Die neuesten Umfragen, sortiert in umgekehrter chronologischer Reihenfolge."
