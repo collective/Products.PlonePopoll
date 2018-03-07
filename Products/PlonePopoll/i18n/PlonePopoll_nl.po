@@ -95,7 +95,7 @@ msgid "label_choice_count"
 msgstr "Aantal antwoorden"
 
 msgid "label_plonepopoll_portlet_configuration"
-msgstr "Enquête portlet"
+msgstr "Enquête-portlet"
 
 #. Default: Number of polls to display
 msgid "label_plonepopoll_portlet_configuration_number_of_polls"
@@ -106,7 +106,7 @@ msgid "label_poll_show_current_results"
 msgstr "Toon de resultaten in het stemscherm"
 
 msgid "label_poll_status"
-msgstr "Enquête status"
+msgstr "Status van enquête"
 
 msgid "label_portlet_configuration_branch"
 msgstr "Eerste enquête in map"
