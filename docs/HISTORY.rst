@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.8b3 (unreleased)
+2.8b3 (2018-03-09)
 ------------------
 
 - Translated some untranslated strings into Dutch, German and French.
