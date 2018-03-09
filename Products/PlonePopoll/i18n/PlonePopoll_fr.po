@@ -36,10 +36,10 @@ msgid "desc_portlet"
 msgstr "Cette boîte affiche un sondage."
 
 msgid "description_already_voted"
-msgstr "You already voted this poll."
+msgstr "Vous avez déja voté."
 
 msgid "description_cant_vote"
-msgstr "You can't vote for this poll."
+msgstr "Vous ne pouvez pas voter."
 
 msgid "description_polls_list"
 msgstr "Les derniers sondages, présentés dans l'ordre chronologique inverse."

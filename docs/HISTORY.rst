@@ -4,7 +4,8 @@ Changelog
 2.8b3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Translated some untranslated strings into Dutch, German and French.
+  [khink]
 
 
 2.8b2 (2018-03-01)
